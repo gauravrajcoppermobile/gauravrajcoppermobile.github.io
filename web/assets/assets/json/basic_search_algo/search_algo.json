@@ -1,0 +1,767 @@
+{
+  "data": {
+    "options": {
+      "Definition of Shock": {
+        "title": "Definition of Shock",
+        "description": "Shock can be defined as a state of cellular and tissue hypoxia due to either reduced oxygen delivery, increased oxygen consumption or inadequate oxygen utilization.\n\n\nThe most common clinical manifestation of shock is hypotension, defined as a systolic blood pressure < 90 mmHg or mean arterial pressure < 65.",
+        "explanation": [
+        ],
+        "key": "Definition of Shock",
+        "nextOptions": [
+          {
+            "title": "Classification",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Classification"
+          },
+          {
+            "title": "Etiologies",
+            "description": null,
+            "explanation": [],
+            "nextKey": "Etiologies"
+          },
+          {
+            "title": "Diagnosis",
+            "description": null,
+            "explanation": [],
+            "nextKey": "Diagnosis"
+          }
+        ]
+      },
+      "Basic Management of Cardiogenic Shock": {
+        "title": "Basic Management of Cardiogenic Shock",
+        "description": "Patients who are at risk of developing CS or have clinical evidence of CS, the following sequential steps in management should be taken:\n\n1. Characterization of the hemodynamic profile and volume status.\n2. Determine the need for mechanical ventilator support.\n3. Initiate pharmacologic therapy for hemodynamic support.\n4. Determine the need for mechanical cardiocirculatory support.\n",
+        "explanation": [
+        ],
+        "key": "Basic Management of Cardiogenic Shock",
+        "nextOptions": [
+          {
+            "title": "Hemodynamic Characterization",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Hemodynamic Characterization"
+          },
+          {
+            "title": "Pharmacological Management",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Pharmacological Management"
+          }
+        ]
+      },
+      "Mechanical Cardiocirculatory Support (MCS) Devices": {
+        "title": "Mechanical Cardiocirculatory Support (MCS) Devices",
+        "description": null,
+        "explanation": [
+        ],
+        "key": "Mechanical Cardiocirculatory Support (MCS) Devices",
+        "nextOptions": [
+          {
+            "title": "Intra-Aortic Balloon Pump",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Intra-Aortic Balloon Pump"
+          },
+          {
+            "title": "Left-Side Impella",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Left-Side Impella"
+          },
+          {
+            "title": "Right-Side Impella",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Right-Side Impella"
+          },
+          {
+            "title": "Protek-Duo",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Protek-Duo"
+          },
+          {
+            "title": "Tandem-Heart",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Tandem-Heart"
+          },
+          {
+            "title": "Extracorporeal Membrane Oxygenation (ECMO)",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Extracorporeal Membrane Oxygenation (ECMO)"
+          }
+        ]
+      },
+      "Intra-Aortic Balloon Pump": {
+        "title": "Intra-Aortic Balloon Pump",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Mechanism of action",
+            "description": "• Increases diastolic pressure when inflates during diastole.• Creates vacuum effect when deflates during systole and reduces afterload.• Reduces myocardial oxygen consumption.",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic effect",
+            "description": "• LV unloading.• Increase in cardiac output.• Augmentation of coronary perfusion.",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic support (in L)",
+            "description": "\u2022 2.5 L.",
+            "imagePath": null
+          },
+          {
+            "title": "Cannula size",
+            "description": "\u2022 7.5 and 8 Fr.",
+            "imagePath": null
+          },
+          {
+            "title": "Insertion technique",
+            "description": "\u2022 Percutaneous transfemoral or transaxillary.",
+            "imagePath": null
+          },
+          {
+            "title": "Anticoagulation",
+            "description": "\u2022 Not needed.",
+            "imagePath": "assets/images/Anticoagulation.png"
+          }
+        ],
+        "key": "Intra-Aortic Balloon Pump",
+        "nextOptions": [
+        ]
+      },
+      "Left-Side Impella": {
+        "title": "Left-Side Impella",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Impella Devices",
+            "description": "The left-side Impella catheter is an intravascular trans-aortic microaxial blood pump that provide cardiocirculatory support. The Impella 2.5, 5.0, and Impella CP Catheters can be inserted percutaneously through the femoral or axillary artery.",
+            "imagePath": "assets/images/Impella Devices.png"
+          },
+          {
+            "title": "Impella Catheter",
+            "description": "Impella 2.5 and CP.",
+            "imagePath": "assets/images/Impella Catheter.png"
+          },
+          {
+            "title": "Impella 5.0",
+            "description": null,
+            "imagePath": "assets/images/Impella 5.0.png"
+          }
+        ],
+        "key": "Left-Side Impella",
+        "nextOptions": [
+          {
+            "title": "Impella 2.5",
+            "description": null,
+            "explanation": [
+              {
+                "title": "Mechanism of action.",
+                "description": "\u2022 LV to Aorta axial pump"
+              },
+              {
+                "title": "Hemodynamic effect",
+                "description": "\u2022 LV unloading."
+              },
+              {
+                "title": "Cannula size",
+                "description": "• 13 Fr."
+              },
+              {
+                "title": "Insertion technique",
+                "description": "• Percutaneous transfemoral or transaxillary via 13F sheath."
+              },
+              {
+                "title": "Hemodynamic support (in L)",
+                "description": "• 2.5 L."
+              },
+              {
+                "title": "Anticoagulation",
+                "description": "• Unfractionated Heparin with ACT target 160-180 s.\n• For the first 24 hours it is recommended to monitor ACT levels every 3 hours until a stable ACT is obtained."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "Impella CP",
+            "description": null,
+            "explanation": [
+              {
+                "title": "Mechanism of action",
+                "description": "• LV to Aorta axial pump."
+              },
+              {
+                "title": "Hemodynamic effect",
+                "description": "\u2022 LV unloading."
+              },
+              {
+                "title": "Cannula size",
+                "description": "\u2022 14 Fr."
+              },
+              {
+                "title": "Insertion technique",
+                "description": "• Percutaneous transfemoral or transaxillary via 14F sheath."
+              },
+              {
+                "title": "Hemodynamic support (in L)",
+                "description": "• 3.7-4 L."
+              },
+              {
+                "title": "Anticoagulation",
+                "description": "• Unfractionated Heparin with ACT target 160-180 s."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "Impella 5.0",
+            "description": null,
+            "explanation": [
+              {
+                "title": "Mechanism of action",
+                "description": "• LV to Aorta axial pump."
+              },
+              {
+                "title": "Hemodynamic effect",
+                "description": "• LV unloading."
+              },
+              {
+                "title": "Cannula size",
+                "description": "• 21 Fr."
+              },
+              {
+                "title": "Insertion technique",
+                "description": "• Surgical graft and 23F sheath."
+              },
+              {
+                "title": "Hemodynamic support (in L)",
+                "description": "• 5.0 L."
+              },
+              {
+                "title": "Anticoagulation",
+                "description": "• Unfractionated Heparin with ACT target 160-180 s."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "Impella 5.5",
+            "description": null,
+            "explanation": [
+              {
+                "title": "Mechanism of action",
+                "description": "• LV to Aorta axial pump."
+              },
+              {
+                "title": "Hemodynamic effect",
+                "description": "• LV unloading."
+              },
+              {
+                "title": "Cannula size",
+                "description": "• 21 Fr."
+              },
+              {
+                "title": "Insertion technique",
+                "description": "• Surgical graft and 23F sheath."
+              },
+              {
+                "title": "Hemodynamic support (in L)",
+                "description": "• 5.5 L."
+              },
+              {
+                "title": "Anticoagulation",
+                "description": "• Unfractionated Heparin with ACT target 160-180 s."
+              }
+            ],
+            "nextKey": null
+          }
+        ]
+      },
+      "Right-Side Impella": {
+        "title": "Right-Side Impella",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Impella Devices",
+            "description": "The right-side Impella catheter (RP Impella) is an intravascular microaxial blood pump designed to bypass the RV by pumping blood from the IVC into the PA. The Impella RP is inserted percutaneously through the femoral vein.",
+            "imagePath": null
+          },
+          {
+            "title": "Impella RP",
+            "description": null,
+            "imagePath": "assets/images/Impella RP.png"
+          },
+          {
+            "title": "Impella Console",
+            "description": "The right-side panel on the screen includes:\n• Alarms.• Flow control.• Display (Position Monitoring).• Purge system.• Impella flow.• Purge flow and pressure.• System power.\n\nThe bottom of the screen reports the following parameters:\n• Impella flow.• Purge flow and pressure.• System power.",
+            "imagePath": "assets/images/Impella Console.png"
+          },
+          {
+            "title": "Purge System",
+            "description": "\u2022 The purge system contains dextrose and UH (recommended 25 U/mL).• Placement of Impella requires also administration of systemic anticoagulation.\n• Therefore, the total heparin delivered to the patient is equal to the heparin delivered through the purge system + systemic IV heparin.\n• This needs to be taken into account when dosing systemic IV heparin.",
+            "imagePath": "assets/images/Purge System.png"
+          },
+          {
+            "title": "Impella Positioning and Monitoring",
+            "description": "The right-side panel on the screen includes:\n\u2022 Transthoracic echocardiography using the parasternal long-axis view can be used to monitor the Impella positioning in the ICU.\n• Correct positioning occurs when the inlet area is located 3.5 cm from the aortic valve plane, at the middle of the LV cavity, with the distal tip of the pump oriented towards the LV apex, away from the papillary muscles.",
+            "imagePath": "assets/images/Positioning and Monitoring1.png"
+          },
+          {
+            "title": null,
+            "description": "\u2022 Correct positioning can also be monitored from the waveform on the monitor by assessing the placement signal.",
+            "imagePath": "assets/images/Positioning and Monitoring2.png"
+          }
+        ],
+        "key": "Right-Side Impella",
+        "nextOptions": [
+          {
+            "title": "RP Impella",
+            "description": null,
+            "explanation": [
+              {
+                "title": "Mechanism of action",
+                "description": "\u2022 IVC to PA (direct RV bypass)."
+              },
+              {
+                "title": "Hemodynamic effect",
+                "description": "• Increases RV and PA peak systolic pressure.\n• Decreases RA pressure."
+              },
+              {
+                "title": "Cannula size",
+                "description": "• 22 Fr."
+              },
+              {
+                "title": "Insertion technique",
+                "description": "• Percutaneous transfemoral via 23F sheath."
+              },
+              {
+                "title": "Hemodynamic support (in L)",
+                "description": "• 2-4 L."
+              }
+            ],
+            "nextKey": null
+          }
+        ]
+      },
+      "Protek-Duo": {
+        "title": "Protek-Duo",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Mechanism of action",
+            "description": "• Right atrium to pulmonary artery.\n• Oxygenation (optional).",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic effect",
+            "description": "Increases RV and PA peak systolic pressure.\n• Decreases CVP.",
+            "imagePath": null
+          },
+          {
+            "title": "Cannula size",
+            "description": "• Dual-lumen 29 or 31 Fr.",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic support (in L)",
+            "description": "• 4.5 L.",
+            "imagePath": null
+          },
+          {
+            "title": null,
+            "description": null,
+            "imagePath": "assets/images/Protek-Duo.png"
+          }
+        ],
+        "key": "Protek-Duo",
+        "nextOptions": [
+        ]
+      },
+      "Tandem-Heart": {
+        "title": "Tandem-Heart",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Mechanism of action",
+            "description": "\u2022 Left atrium to arterial system shun.",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic effect",
+            "description": "• LA unloading.",
+            "imagePath": null
+          },
+          {
+            "title": "Cannula size",
+            "description": "• 21 Fr venous and 15-17 Fr arterial.",
+            "imagePath": null
+          },
+          {
+            "title": "Insertion technique",
+            "description": "• Percutaneous transfemoral artery and vein; transeptal puncture.",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic support (in L)",
+            "description": "• 5.0 L.",
+            "imagePath": null
+          },
+          {
+            "title": null,
+            "description": null,
+            "imagePath": "assets/images/Tandem-Heart.png"
+          }
+        ],
+        "key": "Tandem-Heart",
+        "nextOptions": [
+        ]
+      },
+      "Extracorporeal Membrane Oxygenation (ECMO)": {
+        "title": "Extracorporeal Membrane Oxygenation (ECMO)",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Mechanism of action",
+            "description": "\u2022 Central venous to arterial system shunt Oxygenation.",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic effect",
+            "description": "\u2022 Full biventricular cardiocirculatory support.\n• Reduces CVP.\n• Increases afterload.",
+            "imagePath": null
+          },
+          {
+            "title": "Cannula size",
+            "description": "\u2022 15-23 Fr arterial and 19-28 Fr venous.",
+            "imagePath": null
+          },
+          {
+            "title": "Insertion technique",
+            "description": "\u2022 Insertion technique.\n\u2022 Percutaneous transfemoral artery and vein (Panel A).\n• Surgical (or central) cannulation in the right atrium and aorta (Panel B).",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic support (in L)",
+            "description": "\u2022 5.0 – 7.0 L.",
+            "imagePath": "assets/images/ecmo.png"
+          }
+        ],
+        "key": "Extracorporeal Membrane Oxygenation (ECMO)",
+        "nextOptions": [
+        ]
+      },
+      "Hemodynamic Characterization": {
+        "title": "Hemodynamic Characterization",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Hemodynamic Profiles",
+            "description": null,
+            "imagePath": "assets/images/HemodynamicProfiles.png"
+          }
+        ],
+        "key": "Hemodynamic Characterization",
+        "nextOptions": [
+          {
+            "title": "Right Heart Catheterization",
+            "description": null,
+            "explanation": [
+            ],
+            "nextKey": "Right Heart Catheterization"
+          }
+        ]
+      },
+      "Right Heart Catheterization": {
+        "title": "Right Heart Catheterization",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Right Heart Catheterization",
+            "description": null,
+            "imagePath": "assets/images/RCH.png"
+          }
+        ],
+        "key": "Right Heart Catheterization",
+        "nextOptions": [
+        ]
+      },
+      "Pharmacological Management": {
+        "title": "Pharmacological Management",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Norepinephrine",
+            "description": "\u2022 Mechanism of action – Alpha more than beta agonist activity primarily leading to vasoconstriction.\n• Indications – First Choice vasopressor.\n• Dosing - 5 to 30 mcg/minute*, can go higher if there’s concomitant septic shock.",
+            "imagePath": null
+          },
+          {
+            "title": "Epinephrine",
+            "description": "• Mechanism of action – More Beta than Alpha agonist activity translating to milder vasoconstriction and more potent inotropic effect compared to Norepinephrine.\n• Indications – Additional vasopressor, Better at RV support.\n• Dosing - 1 to 40 mcg/minute*.",
+            "imagePath": null
+          },
+          {
+            "title": "Vasopressin",
+            "description": "• Mechanism of action – increase SVR and MAP through Arginine vasopressin receptor stimulation.\n• Indications – adjunct vasopressor.\n• Dosing – Fixed dose 0.03 unit/minute.",
+            "imagePath": null
+          },
+          {
+            "title": "Dopamine",
+            "description": "• Mechanism of action – Dose dependent Renal and mesenteric vasodilation to cardiac stimulation.\n• Indications – not the preferred initial agent in cardiogenic shock, bradyarrhythmia.\n• Dosing - 0.5 to 20 mcg/kg/minute.",
+            "imagePath": null
+          },
+          {
+            "title": "Dobutamine",
+            "description": "• Mechanism of action – stimulates Beta1 and some Alpha receptors leading to increased contractility and heart rate.\n• Indications – Cardiogenic shock without significant hypotension, improves RV-PA coupling in RVMI.\n• Dosing - 2 to 10 mcg/kg/minute for ionotropic support.",
+            "imagePath": null
+          },
+          {
+            "title": "Milrinone",
+            "description": "• Mechanism of action – Inotropy and vasodilation through PDE inhibition.\n• Indications – bridge advanced HF therapies or maintenance therapy in HFrEF.\n• Dosing - 0.125 to 0.75 mcg/kg/minute.\n\n*Calculated and rounded for an 80 kg patient based on weight-based dosing.",
+            "imagePath": null
+          },
+          {
+            "title": "Mechanism of Action of Vasopressors and Inotropes",
+            "description": null,
+            "imagePath": "assets/images/Mechanism of Action.png"
+          },
+          {
+            "title": null,
+            "description": "0 = No effect; + sign = agonist; - sign = inhibitor.",
+            "imagePath": null
+          }
+        ],
+        "key": "Pharmacological Management",
+        "nextOptions": [
+        ]
+      },
+      "Diagnosis": {
+        "title": "Diagnosis",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Diagnosis and Characterization of the Types of Shock Syndromes",
+            "description": "\u2022 The major determinant of tissue perfusion (and systemic blood pressure [BP]) are cardiac output (CO) and systemic vascular resistance (SVR).\n• BP = CO x SVR.\n• Where CO = Heart Rate (HR) x Stroke Volume (SV).\n• Stroke volume is determined by: Preload Myocardial contractility Afterload.\n• Biologic processes than can change any of this physiological variables can result in hypotension and shock.\n• Serum lactate levels are used as surrogates for hypoperfusion and tissue hypoxia.",
+            "imagePath": null
+          },
+          {
+            "title": "Hemodynamic profile of shock states",
+            "description": null,
+            "imagePath": "assets/images/Hemodynamic.png"
+          },
+          {
+            "title": "Pathophysiology of Cardiogenic Shock",
+            "description": null,
+            "imagePath": "assets/images/Pathophysiology.png"
+          }
+        ],
+        "key": "Diagnosis",
+        "nextOptions": [
+        ]
+      },
+      "Etiologies": {
+        "title": "Etiologies of Shock",
+        "description": null,
+        "explanation": [
+        ],
+        "key": "Etiologies",
+        "nextOptions": [
+          {
+            "title": "Cardiogenic Shock",
+            "description": null,
+            "explanation": [
+              {
+                "title": null,
+                "description": "• Myocardial infarction.\n• Acute decompensated heart failure.\n• Myocarditis / Cardiomyopathy.\n• Arrhythmias (Bradyarrhythmias or Tachyarrhthmias).\n• Valvular heart disease (Acute severe valvular insufficiency, papillary or chordae tendineae rupture, valvular abscess; critical valvular stenosis).\n\u2022 Mechanical complications of acute myocardial infarction."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "Vasodilatory Shock",
+            "description": null,
+            "explanation": [
+              {
+                "title": "Septic",
+                "description": "• Bacterial.\n• Fungal.\n• Viral.\n\u2022 Parasitic."
+              },
+              {
+                "title": "Non - Septic",
+                "description": "• Inflammatory shock (e.g. burns, trauma, pancreatitis, cytokine release syndrome).\n• Anaphylactic Shock.\n• Neurogenic Shock.\n• Acute liver failure.\n• Vasoplegia (e.g. post-cardiopulmonary bypass)."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "Obstructive Shock",
+            "description": null, "explanation": [
+              {
+                "title": null,
+                "description": "• Pulmonary Embolism.\n• Severe pulmonary hypertension.\n• Tension pneumothorax.\n• Pericardial tamponade.\n• Left ventricular or right ventricular outflow track obstruction."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "Hypovolemic Shock",
+            "description": null,
+            "explanation": [
+              {
+                "title": "Hemorrhagic",
+                "description": "\u2022 Hypovolemic Shock.\n• Trauma.\n• Procedure-related complications."
+              },
+              {
+                "title": "Non -Hemorrhagic",
+                "description": "\u2022 Gastrointestinal losses.\n\u2022 Skin losses.\n\u2022 Renal losses.\n\u2022 Third space losses into the extravascular space or body cavities."
+              }
+            ],
+            "nextKey": null
+          }
+        ]
+      },
+      "Classification": {
+        "title": "Classification",
+        "description": null,
+        "explanation": [
+          {
+            "title": "Cardiogenic Shock",
+            "description": "cardiogenic shock is due to intracardiac causes of cardiac pump failure that result in reduced cardiac output and end-organ failure."
+          },
+          {
+            "title": "Vasodilatory or Distributive Shock",
+            "description": "Distributive shock is characterized by severe and dysregulated peripheral vasodilatation"
+          },
+          {
+            "title": "Hypovolemic Shock",
+            "description": "Hypovolemic shock is due to reduced intravascular volume (i.e., reduced preload) with subsequent reduction in cardiac output."
+          },
+          {
+            "title": "Obstructive Shock",
+            "description": "Obstructive shock is due to extra-cardiac causes of cardiac pump failure with subsequent reduced end-organ perfusion."
+          },
+          {
+            "title": "SCAI Shock Classification",
+            "description": null
+          }
+        ],
+        "key": "Classification",
+        "nextOptions": [
+          {
+            "title": "(A) At Risk",
+            "description": "Not Currently experiencing signs or symptoms pf CS, but at risk for its development",
+            "explanation": [
+              {
+                "title": "Physical Exam",
+                "description": "\u2022 Normal JVP.• Warm and well- perfused.• Strong distal pulses.• Normal mentation.• Clear lung sounds."
+              },
+              {
+                "title": "Biochemical Markers",
+                "description": "• Normal lactate.• Normal (or at baseline) renal function."
+              },
+              {
+                "title": "Hemodynamics",
+                "description": "• SBP >100mmHg (or at baseline).• CI >2.5 (if acute).• CVP 65%."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "(B) Beginning CS",
+            "description": "Clinical evidence of hemodynamic instability without hypoperfusion",
+            "explanation": [
+              {
+                "title": "Physical Exam",
+                "description": "• Normal JVP.• Warm and well- perfused.• Strong distal pulses.• Normal mentation.• Rales in lung fields."
+              },
+              {
+                "title": "Biochemical Markers",
+                "description": "• Normal lactate.• Minimal acute renal function impairment.• Elevated BNP."
+              },
+              {
+                "title": "Hemodynamics",
+                "description": "• SBP <90mmHg, or MAP <60mmHg, or > 30mm drop from baseline.• HR >100bpm."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "(C) Classic CS",
+            "description": "Hypoperfusion requiring intervention (pharmacologic or mechanical) beyond volume resuscitation",
+            "explanation": [
+              {
+                "title": "Physical Exam",
+                "description": "• Volume overload.• Altered mental status.• Cold and clammy.• Extensive rales.• Urine output<30mL/h."
+              },
+              {
+                "title": "Biochemical Markers",
+                "description": "• Lactate>2.• CR 1.5 x baseline or> 50% drop in GFR.• Increased LFTs.• Elevated BNP."
+              },
+              {
+                "title": "Hemodynamics",
+                "description": "• CL<2.2 (if invasive hemodynamics performed [Strongly recommended] ).• r PCWP >15."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "(D) Deteriorating",
+            "description": "Failure of initial support strategy to restore perfusion",
+            "explanation": [
+              {
+                "title": "Physical Exam",
+                "description": "• Any of stage C and worsening (or not improving) signs/sx of hypoperfusion despite initial therapy."
+              },
+              {
+                "title": "Biochemical Markers",
+                "description": "• Any of stage C and lactate rising and persistently >2.• Deteriorating renal function.• Worsening LFTs.• Rising BNP."
+              },
+              {
+                "title": "Hemodynamics",
+                "description": "• Any of stage C and requiring escalating doses or increasing numbers of pressors or addition of MCS device to maintain perfusion."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "(E) Extremis",
+            "description": "Acute or impending circulatory collapse",
+            "explanation": [
+              {
+                "title": "Physical Exam",
+                "description": "• Typically unconscious.• Near pulselessness.• Cardiac collapse.• Multiple defibrillations."
+              },
+              {
+                "title": "Biochemical Markers",
+                "description": "• Lactate >8.• CPR.• Severe acidosis (pH <7.2)."
+              },
+              {
+                "title": "Hemodynamics",
+                "description": "• Profound hypotension despite maximal.• hemodynamic support.• Need for bolus doses of vasopressors."
+              }
+            ],
+            "nextKey": null
+          },
+          {
+            "title": "(F) Arrest Modifier",
+            "description": "Cardiac arrest with concern for anoxic brain injury",
+            "explanation": [
+            ],
+            "nextKey": null
+          }
+        ]
+      }
+    }
+  }
+}

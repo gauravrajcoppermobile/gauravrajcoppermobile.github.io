@@ -1,0 +1,27 @@
+{
+    "data": {
+        "title": "More",
+        "items": [
+            {
+                "item_title": "About Us",
+                "res_icon": "assets/icons/ic_about.svg"
+            },
+            {
+                "item_title": "Terms & Conditions",
+                "res_icon": "assets/icons/ic_tc.svg"
+            },
+            {
+                "item_title": "Privacy Policy",
+                "res_icon": "assets/icons/ic_pp.svg"
+            },
+            {
+                "item_title": "Contact Us",
+                "res_icon": "assets/icons/ic_contact.svg"
+            },
+            {
+                "item_title": "Team",
+                "res_icon": "assets/icons/ic_team.svg"
+            }
+        ]
+    }
+}

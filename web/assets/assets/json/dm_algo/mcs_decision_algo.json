@@ -1,0 +1,1741 @@
+{
+    "data": {
+        "options": {
+            "Clinical Presentation ?": {
+                "title": "Clinical Presentation ?",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Clinical Presentation ?",
+                "nextOptions": [
+                    {
+                        "title": "Cardiogenic Shock",
+                        "description": "SBP<90 or need of vasopressor or inotropes to maintain SBP>90\n\nEvidence of systemic hypoperfusion (e.g. elevated lactate, elevated creatinine/oliguria, ALT/AST, cold extremitie.",
+                        "explanation": [
+                        ],
+                        "nextKey": "Cardiogenic Shock"
+                    },
+                    {
+                        "title": "Cardiac Arrest post-ROSC",
+                        "description": "Possible ischemic, based on:\n\n• Clinical history\n• STE or STD on EKG\n• VT/VF arrest",
+                        "explanation": [
+                        ],
+                        "nextKey": "Cardiac Arrest post-ROSC"
+                    }
+                ]
+            },
+            "Cardiogenic Shock": {
+                "title": "Cardiogenic Shock",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Cardiogenic Shock",
+                "nextOptions": [
+                    {
+                        "title": "ST-elevations on EKG",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "ST-elevations on EKG"
+                    },
+                    {
+                        "title": "No ST-elevations on EKG",
+                        "description": null,
+                        "explanation": [
+                        ],
+                        "nextKey": "No ST-elevations on EKG"
+                    }
+                ]
+            },
+            "No ST-elevations on EKG": {
+                "title": "No ST-elevations on EKG",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "No ST-elevations on EKG",
+                "nextOptions": [
+                    {
+                        "title": "High pre-test probability for ischemia",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "High pre-test probability for ischemia"
+                    },
+                    {
+                        "title": "Low pre-test probability for ischemia",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Low pre-test probability for ischemia"
+                    }
+                ]
+            },
+            "High pre-test probability for ischemia": {
+                "title": "High pre-test probability for ischemia",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "High pre-test probability for ischemia",
+                "nextOptions": [
+                    {
+                        "title": "Cathlab",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Cathlab-no-st-elevation"
+                    }
+                ]
+            },
+            "Cathlab-no-st-elevation": {
+                "title": "Cathlab",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Cathlab-no-st-elevation",
+                "nextOptions": [
+                    {
+                        "title": "LHC+RHC",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "LHC+RHC"
+                    }
+                ]
+            },
+            "LHC+RHC": {
+                "title": "LHC+RHC",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "LHC+RHC",
+                "nextOptions": [
+                    {
+                        "title": "Impella +/- PCI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Low pre-test probability for ischemia": {
+                "title": "Low pre-test probability for ischemia",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Low pre-test probability for ischemia",
+                "nextOptions": [
+                    {
+                        "title": "Non-ischemic CS algorithm",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Non-ischemic CS algorithm"
+                    }
+                ]
+            },
+            "Non-ischemic CS algorithm": {
+                "title": "Non-ischemic CS algorithm",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Non-ischemic CS algorithm",
+                "nextOptions": [
+                    {
+                        "title": "POC TTE",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "POC TTE"
+                    }
+                ]
+            },
+            "POC TTE": {
+                "title": "POC TTE",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "POC TTE",
+                "nextOptions": [
+                    {
+                        "title": "Pericardial Disease / Tamponade",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Pericardial Disease / Tamponade"
+                    },
+                    {
+                        "title": "RV dilatation/dysfunction",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RV dilatation/dysfunction"
+                    },
+                    {
+                        "title": "Swan-Ganz Catheter",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Swan-Ganz Catheter"
+                    }
+                ]
+            },
+            "Swan-Ganz Catheter": {
+                "title": "Swan-Ganz Catheter",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Swan-Ganz Catheter",
+                "nextOptions": [
+                    {
+                        "title": "CI < 2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CI < 2.2"
+                    },
+                    {
+                        "title": "CI > 2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CI > 2.2"
+                    }
+                ]
+            },
+            "CI < 2.2": {
+                "title": "CI < 2.2",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "CI < 2.2",
+                "nextOptions": [
+                    {
+                        "title": "RA<15 PCWP<18",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RA<15 PCWP<18"
+                    },
+                    {
+                        "title": "RA<15 PCWP≥18",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RA<15 PCWP≥18"
+                    },   {
+                        "title": "RA≥15 PCWP<18",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RA≥15 PCWP<18"
+                    },   {
+                        "title": "RA≥15 PCWP≥18",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RA≥15 PCWP≥18"
+                    }
+                ]
+            },
+            "RA≥15 PCWP≥18": {
+                "title": "RA≥15 PCWP≥18",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RA≥15 PCWP≥18",
+                "nextOptions": [
+                    {
+                        "title": "BiV Failure",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "BiV Failure"
+                    }
+                ]
+            },
+            "BiV Failure": {
+                "title": "BiV Failure",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "BiV Failure",
+                "nextOptions": [
+                    {
+                        "title": "PAPI>1.0",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAPI>1.0 BiV Failure"
+                    },
+                    {
+                        "title": "PAPI<1.0",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAPI<1.0 BiV Failure"
+                    }
+                ]
+            },
+            "PAPI>1.0 BiV Failure": {
+                "title": "PAPI>1.0",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PAPI>1.0 BiV Failure",
+                "nextOptions": [
+                    {
+                        "title": "IABP\nImpella CP and 5.0",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "PAPI<1.0 BiV Failure": {
+                "title": "PAP<1.0",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PAPI<1.0 BiV Failure",
+                "nextOptions": [
+                    {
+                        "title": "No Respiratory Failure",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "No Respiratory Failure"
+                    },
+                    {
+                        "title": "Respiratory Failure",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Respiratory Failure"
+                    }
+                ]
+            },
+            "No Respiratory Failure": {
+                "title": "No Respiratory Failure",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "No Respiratory Failure",
+                "nextOptions": [
+                    {
+                        "title": "BiPella (Impella CP/5.0 + RP)",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Respiratory Failure": {
+                "title": "Respiratory Failure",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Respiratory Failure",
+                "nextOptions": [
+                    {
+                        "title": "ECMO",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "RA<15 PCWP<18": {
+                "title": "RA<15 PCWP<18",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RA<15 PCWP<18",
+                "nextOptions": [
+                    {
+                        "title": "Hypovolemia",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Hypovolemia"
+                    }
+                ]
+            },
+            "Hypovolemia": {
+                "title": "Hypovolemia",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Hypovolemia",
+                "nextOptions": [
+                    {
+                        "title": "Volume Resuscitation",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "RA<15 PCWP≥18": {
+                "title": "RA<15 PCWP≥18",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RA<15 PCWP≥18",
+                "nextOptions": [
+                    {
+                        "title": "LV Dominant",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "LV Dominant"
+                    }
+                ]
+            },
+            "RA≥15 PCWP<18": {
+                "title": "RA≥15 PCWP<18",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RA≥15 PCWP<18",
+                "nextOptions": [
+                    {
+                        "title": "RV Dominant",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RV Dominant"
+                    }
+                ]
+            },
+            "RV Dominant": {
+                "title": "RV Dominant",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RV Dominant",
+                "nextOptions": [
+                    {
+                        "title": "PAPI>1.0",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAPI>1.0"
+                    },
+                    {
+                        "title": "PAP<1.0",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAP<1.0"
+                    }
+                ]
+            },
+            "PAPI>1.0": {
+                "title": "PAPI>1.0",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PAPI>1.0",
+                "nextOptions": [
+                    {
+                        "title": "Medical Therapy",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "PAP<1.0": {
+                "title": "PAP<1.0",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PAP<1.0",
+                "nextOptions": [
+                    {
+                        "title": "Severe PH",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Severe PH"
+                    },
+                    {
+                        "title": "No severe PH",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "No severe PH"
+                    }
+                ]
+            },
+            "Severe PH": {
+                "title": "Severe PH",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Severe PH",
+                "nextOptions": [
+                    {
+                        "title": "ECMO",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "No severe PH": {
+                "title": "No severe PH",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "No severe PH",
+                "nextOptions": [
+                    {
+                        "title": "Impella RP\nProtekDuo\nSpectrum",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "LV Dominant": {
+                "title": "LV Dominant",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "LV Dominant",
+                "nextOptions": [
+                    {
+                        "title": "IABP\nImpella CP\nImpella 5.0",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "CI > 2.2": {
+                "title": "CI > 2.2",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "CI > 2.2",
+                "nextOptions": [
+                    {
+                        "title": "Consider non-cardiac etiology of shock",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Pericardial Disease / Tamponade": {
+                "title": "Pericardial Disease / Tamponade",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Pericardial Disease / Tamponade",
+                "nextOptions": [
+                    {
+                        "title": "Pericardiocentesis",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "RV dilatation/dysfunction": {
+                "title": "RV dilatation/dysfunction",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RV dilatation/dysfunction",
+                "nextOptions": [
+                    {
+                        "title": "CTA to r/o PE",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "ST-elevations on EKG": {
+                "title": "ST-elevations on EKG",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ST-elevations on EKG",
+                "nextOptions": [
+                    {
+                        "title": "Cathlab",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Cathlab-st-elevation"
+                    }
+                ]
+            },
+            "Cardiac Arrest post-ROSC": {
+                "title": "Cardiac Arrest post-ROSC",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Cardiac Arrest post-ROSC",
+                "nextOptions": [
+                    {
+                        "title": "Non-Refractory",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Non-Refractory"
+                    },
+                    {
+                        "title": "Refractory",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Refractory"
+                    }
+                ]
+            },
+            "Non-Refractory": {
+                "title": "Non-Refractory",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Non-Refractory",
+                "nextOptions": [
+                    {
+                        "title": "NSTEMI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "NSTEMI"
+                    },
+                    {
+                        "title": "STEMI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "STEMI"
+                    }
+                ]
+            },
+            "STEMI": {
+                "title": "STEMI",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "STEMI",
+                "nextOptions": [
+                    {
+                        "title": "Cathlab",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "cathlab-stemi"
+                    }
+                ]
+            },
+            "cathlab-stemi": {
+                "title": "Cathlab",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "cathlab-stemi",
+                "nextOptions": [
+                    {
+                        "title": "SBP<90 and LVEDP>15",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "SBP<90 and LVEDP>15-stemi"
+                    },
+                    {
+                        "title": "SBP>90 and LVEDP<15",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "SBP>90 and LVEDP<15-stemi"
+                    },
+                    {
+                        "title": "LVEDP>30",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "LVEDP>30-stemi"
+                    }
+                ]
+            },
+            "SBP<90 and LVEDP>15-stemi": {
+                "title": "SBP<90 and LVEDP>15",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "SBP<90 and LVEDP>15-stemi",
+                "nextOptions": [
+                    {
+                        "title": "Impella + PCI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "SBP>90 and LVEDP<15-stemi": {
+                "title": "SBP>90 and LVEDP<15",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "SBP>90 and LVEDP<15-stemi",
+                "nextOptions": [
+                    {
+                        "title": "PCI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "LVEDP>30-stemi": {
+                "title": "LVEDP>30",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "LVEDP>30-stemi",
+                "nextOptions": [
+                    {
+                        "title": "PCI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "NSTEMI": {
+                "title": "NSTEMI",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "NSTEMI",
+                "nextOptions": [
+                    {
+                        "title": "NSTEMI-CS algorithm",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "No ST-elevations on EKG"
+                    }
+                ]
+            },
+            "Refractory": {
+                "title": "Refractory",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Refractory",
+                "nextOptions": [
+                    {
+                        "title": "ECLS / VA-ECMO",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Cathlab-st-elevation": {
+                "title": "Cathlab",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Cathlab-st-elevation",
+                "nextOptions": [
+                    {
+                        "title": "SBP<90 and LVEDP>15",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "SBP<90 and LVEDP>15-st-elevation"
+                    },
+                    {
+                        "title": "SBP>90 and LVEDP<15",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "SBP>90 and LVEDP<15-st-elevation"
+                    },
+                    {
+                        "title": "LVEDP>30",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "LVEDP>30-st-elevation"
+                    }
+                ]
+            },
+            "SBP<90 and LVEDP>15-st-elevation": {
+                "title": "SBP<90 and LVEDP>15",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "SBP<90 and LVEDP>15",
+                "nextOptions": [
+                    {
+                        "title": "Impella + PCI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Impella + PCI"
+                    }
+                ]
+            },
+            "LVEDP>30-st-elevation": {
+                "title": "LVEDP>30",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "LVEDP>30-st-elevation",
+                "nextOptions": [
+                    {
+                        "title": "Impella + PCI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Impella + PCI"
+                    }
+                ]
+            },
+            "Impella + PCI": {
+                "title": "Impella + PCI",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Impella + PCI",
+                "nextOptions": [
+                    {
+                        "title": "RHC",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RHC"
+                    }
+                ]
+            },
+            "SBP>90 and LVEDP<15-st-elevation": {
+                "title": "SBP>90 and LVEDP<15",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "SBP>90 and LVEDP<15",
+                "nextOptions": [
+                    {
+                        "title": "PCI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PCI"
+                    }
+                ]
+            },
+            "PCI": {
+                "title": "PCI",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PCI",
+                "nextOptions": [
+                    {
+                        "title": "RHC",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RHC"
+                    }
+                ]
+            },
+            "RHC": {
+                "title": "RHC",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RHC",
+                "nextOptions": [
+                    {
+                        "title": "Post-PCI RHC",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Post-PCI RHC"
+                    }
+                ]
+            },
+            "Post-PCI RHC": {
+                "title": "Post-PCI RHC",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Post-PCI RHC",
+                "nextOptions": [
+                    {
+                        "title": "CPO>0.6 and CI>2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CPO>0.6 and CI>2.2"
+                    },
+                    {
+                        "title": "CPO<0.6 or CI<2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CPO<0.6 or CI<2.2"
+                    }
+                ]
+            },
+            "CPO>0.6 and CI>2.2": {
+                "title": "CPO>0.6 and CI>2.2",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "CPO>0.6 and CI>2.2",
+                "nextOptions": [
+                    {
+                        "title": "Transfer to ICU with Swan-Ganz in place +/- Impella removal",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "CPO<0.6 or CI<2.2": {
+                "title": "CPO<0.6 or CI<2.2",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "CPO<0.6 or CI<2.2",
+                "nextOptions": [
+                    {
+                        "title": "Continue Impella CP support",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Continue Impella CP support"
+                    }
+                ]
+            },
+            "Continue Impella CP support": {
+                "title": "Continue Impella CP support",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Continue Impella CP support",
+                "nextOptions": [
+                    {
+                        "title": "PAPI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAPI"
+                    }
+                ]
+            },
+            "PAPI": {
+                "title": "PAPI",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PAPI",
+                "nextOptions": [
+                    {
+                        "title": "PAPI<1.1",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAPI<1.1"
+                    },
+                    {
+                        "title": "PAPI>1.1",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAPI>1.1"
+                    }
+                ]
+            },
+            "PAPI<1.1": {
+                "title": "PAPI<1.1",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PAPI<1.1",
+                "nextOptions": [
+                    {
+                        "title": "RV Support",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "RV Support"
+                    }
+                ]
+            },
+            "RV Support": {
+                "title": "RV Support",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "RV Support",
+                "nextOptions": [
+                    {
+                        "title": "ProtekDuo\nRP Impella\nSpectrum\nECMO",
+                        "description": null,
+                        "explanation": [
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "PAPI>1.1": {
+                "title": "PAPI>1.1",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "PAPI>1.1",
+                "nextOptions": [
+                    {
+                        "title": "Escalate LV Support",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Escalate LV Support"
+                    }
+                ]
+            },
+            "Escalate LV Support": {
+                "title": "Escalate LV Support",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Escalate LV Support",
+                "nextOptions": [
+                    {
+                        "title": "Impella 5.0/5.5\nECMO",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+
+
+            "MCS Decision Making Algorithms in patients with Cardiogenic Shock": {
+                "title": "MCS Decision Making Algorithms in patients with Cardiogenic Shock",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "001",
+                "nextOptions": [
+                    {
+                        "title": "Impella Protocol",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Impella Protocol"
+                    },
+                    {
+                        "title": "ECMO Protocol",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "ECMO Protocol"
+                    },
+                    {
+                        "title": "Patient on VA-ECMO and not weanable after 7-10 days",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Patient on VA-ECMO and not weanable after 7-10 days"
+                    }
+                ]
+            },
+            "Patient on VA-ECMO and not weanable after 7-10 days": {
+                "title": "Patient on VA-ECMO and not weanable after 7-10 days",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Patient on VA-ECMO and not weanable after 7-10 days",
+                "nextOptions": [
+                    {
+                        "title": "LV failure alone",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "LV failure alone"
+                    },
+                    {
+                        "title": "Biventricular failure",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Biventricular failure"
+                    }
+                ]
+            },
+            "Biventricular failure": {
+                "title": "Biventricular failure",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Biventricular failure",
+                "nextOptions": [
+                    {
+                        "title": "Continue VA-ECMO",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Continue VA-ECMO"
+                    }
+                ]
+            },
+            "Continue VA-ECMO": {
+                "title": "Continue VA-ECMO",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Continue VA-ECMO",
+                "nextOptions": [
+                    {
+                        "title": "Consideration for durable MCS/OHT",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "LV failure alone": {
+                "title": "LV failure alone",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "LV failure alone",
+                "nextOptions": [
+                    {
+                        "title": "Chances of recovery within 2 weeks",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Chances of recovery within 2 weeks"
+                    },
+                    {
+                        "title": "No chances of recovery within 2 weeks",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "No chances of recovery within 2 weeks"
+                    }
+                ]
+            },
+            "Chances of recovery within 2 weeks": {
+                "title": "Chances of recovery within 2 weeks",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Chances of recovery within 2 weeks",
+                "nextOptions": [
+                    {
+                        "title": "Impella 5.0/5.5",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Impella 5.0/5.5"
+                    }
+                ]
+            },
+            "Impella 5.0/5.5": {
+                "title": "Impella 5.0/5.5",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Impella 5.0/5.5",
+                "nextOptions": [
+                    {
+                        "title": "Consideration for durable MCS/OHT",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "No chances of recovery within 2 weeks": {
+                "title": "No chances of recovery within 2 weeks",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "No chances of recovery within 2 weeks",
+                "nextOptions": [
+                    {
+                        "title": "Consideration for durable MCS/OHT",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "ECMO Protocol": {
+                "title": "VA - Ecmo",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO Protocol",
+                "nextOptions": [
+                    {
+                        "title": "1-Recovery of end-organ function \n(Cr/UO, ALT/AST, mental status, lactate)\n\n2-TTE suggesting improved cardiac function (LV/RV function; LV size; MR; PA pressures)\n",
+                        "description": null,
+                        "explanation": [
+                            ],
+                        "nextKey": "ECMO-OPT-1"
+                    },
+                    {
+                        "title": "LV Venting (Impella; IABP; LV apical cannula) or \nIndirect LA/PA venting, if:\nPCWP>20 mmHg\nPulse pressure <20\nClinical pulmonary edema\nEvidence of blood stagnation in LV or \naortic root\nOptimize chance of recovering the ventricle",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "ECMO-OPT-1": {
+                "title": "1-Recovery of end-organ function ...",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO-OPT-1",
+                "nextOptions": [
+                    {
+                        "title": "Yes",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "ECMO-OPT-Yes"
+                    },
+                    {
+                        "title": "No",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "ECMO-OPT-No"
+                    }
+                ]
+            },
+            "ECMO-OPT-No": {
+                "title": "No",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO-OPT-No",
+                "nextOptions": [
+                    {
+                        "title": "Continue VA-ECMO Support",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "ECMO-OPT-Yes": {
+                "title": "Yes",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO-OPT-Yes",
+                "nextOptions": [
+                    {
+                        "title": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Empiric VA-ECMO flow reduction (0.5-2L q24h)"
+                    }
+                ]
+            },
+            "Empiric VA-ECMO flow reduction (0.5-2L q24h)": {
+                "title": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                "nextOptions": [
+                    {
+                        "title": "Stable end-organ function (Cr/UO, ALT/AST, mental status, lactate) and TTE parameters (LV/RV function; LV size; MR; PA pressures)",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable end-organ function"
+                    }
+                ]
+            },
+            "Stable end-organ function": {
+                "title": "Stable end-organ function",
+                "description": "Are the patient hemodynamic variables, the end-organ function values looking healthy after we reduce the flow of the device?",
+                "explanation": [
+                    null
+                ],
+                "key": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                "nextOptions": [
+                    {
+                        "title": "Yes",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable end-organ function Yes"
+                    },
+                    {
+                        "title": "No",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable end-organ function No"
+                    }
+                ]
+            },
+            "Stable end-organ function Yes": {
+                "title": "Yes",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Stable end-organ function Yes",
+                "nextOptions": [
+                    {
+                        "title": "Reduce flow to 1.8L and attempt Clamp trial",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Reduce flow to 1.8L and attempt Clamp trial"
+                    }
+                ]
+            },
+            "Reduce flow to 1.8L and attempt Clamp trial": {
+                "title": "Reduce flow to 1.8L and attempt Clamp trial",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Reduce flow to 1.8L and attempt Clamp trial",
+                "nextOptions": [
+                    {
+                        "title": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm"
+                    }
+                ]
+            },
+            "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm": {
+                "title": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm",
+                "nextOptions": [
+                    {
+                        "title": "Decannulate ECMO or de-escalate to IABP",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Stable end-organ function No": {
+                "title": "No",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Stable end-organ function No",
+                "nextOptions": [
+                    {
+                        "title": "Continue VA-ECMO Support",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Impella Protocol": {
+                "title": "Daily assessment on Impella CP",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Impella Protocol",
+                "nextOptions": [
+                    {
+                        "title": "CPO >0.6; CI>2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CPO >0.6; CI>2.2"
+                    },
+                    {
+                        "title": "CPO <0.6; CI<2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CPO <0.6; CI<2.2"
+                    },
+                    {
+                        "title": "If Impella-related complications (e.g. peripheral ischemia, hemolysis)",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Impella-related complications"
+                    }
+                ]
+            },
+            "Impella-related complications": {
+                "title": "If Impella-related complications (e.g. peripheral ischemia, hemolysis)",
+                "description": null,
+                "key": "Impella-related complications",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Consider rapid weaning or alternate MCS strategy",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "CPO <0.6; CI<2.2": {
+                "title": "CPO <0.6; CI<2.2",
+                "description": null,
+                "key": "CPO <0.6; CI<2.2",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Stable CO, UO, Lactate, Pressors",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable CO, UO, Lactate, Pressors"
+                    },
+                    {
+                        "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "↓CO, ↓UO, ↑Lactate, ↑Pressors"
+                    }
+                ]
+            },
+            "Stable CO, UO, Lactate, Pressors": {
+                "title": "Stable CO, UO, Lactate, Pressors",
+                "description": null,
+                "key": "Stable CO, UO, Lactate, Pressors",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Careful observation vs Post PCI RHC Escalation Pathway",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "↓CO, ↓UO, ↑Lactate, ↑Pressors": {
+                "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                "description": "Escalation if either:\n1-High likelihood of recovery\n2-Suitable for durable MCS\n3-Candidacy for OHT",
+                "key": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                "explanation": [
+                ],
+                "nextOptions": [
+                    {
+                        "title": "PAPI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "PAPI"
+                    }
+                ]
+            },
+            "CPO >0.6; CI>2.2": {
+                "title": "CPO >0.6; CI>2.2",
+                "description": "Recovery of end-organ function (Cr/UO, ALT/AST, mental status, lactate)\n\nTTE suggesting improved cardiac function (LV/RV function; LV size; MR; PA pressures)\n\nLow dose vasopressors and ionotropes",
+                "key": "CPO >0.6; CI>2.2",
+                "nextOptions": [
+                    {
+                        "title": "Start weaning",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Start weaning"
+                    }
+                ],
+                "explanation": [
+                    "Recovery of end-organ function (Cr/UO, ALT/AST, mental status, lactate).",
+                    "TTE suggesting improved cardiac function (LV/RV function; LV size; MR; PA pressures).",
+                    "Low dose vasopressors and ionotropes."
+                ]
+            },
+            "Start weaning": {
+                "title": "Start weaning",
+                "description": null,
+                "key": "Start weaning",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "requirement value 1"
+                    },
+                    {
+                        "title": "Stable CO, UO, Lactate, minimal pressor requirement",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "requirement value 2"
+                    }
+                ]
+            },
+            "requirement value 1": {
+                "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                "description": null,
+                "key": "requirement value 1",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Abort Wean",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "requirement value 2": {
+                "title": "Stable CO, UO, Lactate, minimal pressor requirement",
+                "description": "Decrease support (1-2 Ps) and monitor end-organ function (Cr/UO, ALT/AST, mental status, lactate) and TTE parameters (LV/RV function; LV size; MR; PA pressures)",
+                "key": "requirement value 2",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Successful Explantation / downgrade to IABP",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            }
+
+        }
+    }
+}

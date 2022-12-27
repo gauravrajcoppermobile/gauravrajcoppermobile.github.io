@@ -1,0 +1,556 @@
+{
+    "data": {
+        "options": {
+            "MCS Decision Making Algorithms in patients with Cardiogenic Shock": {
+                "title": "MCS Decision Making Algorithms in patients with Cardiogenic Shock",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "001",
+                "nextOptions": [
+                    {
+                        "title": "Impella Protocol",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Impella Protocol"
+                    },
+                    {
+                        "title": "ECMO Protocol",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "ECMO Protocol"
+                    },
+                    {
+                        "title": "Patient on VA-ECMO and not weanable after 7-10 days",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Patient on VA-ECMO and not weanable after 7-10 days"
+                    }
+                ]
+            },
+            "Patient on VA-ECMO and not weanable after 7-10 days": {
+                "title": "Patient on VA-ECMO and not weanable after 7-10 days",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Patient on VA-ECMO and not weanable after 7-10 days",
+                "nextOptions": [
+                    {
+                        "title": "LV failure alone",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "LV failure alone"
+                    },
+                    {
+                        "title": "Biventricular failure",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Biventricular failure"
+                    }
+                ]
+            },
+            "Biventricular failure": {
+                "title": "Biventricular failure",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Biventricular failure",
+                "nextOptions": [
+                    {
+                        "title": "Continue VA-ECMO",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Continue VA-ECMO"
+                    }
+                ]
+            },  
+              "Continue VA-ECMO": {
+                "title": "Continue VA-ECMO",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Continue VA-ECMO",
+                "nextOptions": [
+                    {
+                        "title": "Consideration for durable MCS/OHT",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "LV failure alone": {
+                "title": "LV failure alone",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "LV failure alone",
+                "nextOptions": [
+                    {
+                        "title": "Chances of recovery within 2 weeks",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Chances of recovery within 2 weeks"
+                    },
+                    {
+                        "title": "No chances of recovery within 2 weeks",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "No chances of recovery within 2 weeks"
+                    }
+                ]
+            },
+            "Chances of recovery within 2 weeks": {
+                "title": "Chances of recovery within 2 weeks",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Chances of recovery within 2 weeks",
+                "nextOptions": [
+                    {
+                        "title": "Impella 5.0/5.5",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "No chances of recovery within 2 weeks": {
+                "title": "No chances of recovery within 2 weeks",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "No chances of recovery within 2 weeks",
+                "nextOptions": [
+                    {
+                        "title": "Consideration for durable MCS/OHT",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "ECMO Protocol": {
+                "title": "VA - Ecmo",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO Protocol",
+                "nextOptions": [
+                    {
+                        "title": "1-Recovery of end-organ function \n(Cr/UO, ALT/AST, mental status, lactate)\n\n2-TTE suggesting improved cardiac function (LV/RV function; LV size; MR; PA pressures)\n",
+                        "description": null,
+                        "explanation": [
+                            "1-Recovery of end-organ function (Cr/UO, ALT/AST, mental status, lactate)",
+                            " 2-TTE suggesting improved cardiac function (LV/RV function; LV size; MR; PA pressures)"
+                        ],
+                        "nextKey": "ECMO-OPT-1"
+                    },
+                    {
+                        "title": "LV Venting (Impella; IABP; LV apical cannula) or \nIndirect LA/PA venting, if:\nPCWP>20 mmHg\nPulse pressure <20\nClinical pulmonary edema\nEvidence of blood stagnation in LV or \naortic root\nOptimize chance of recovering the ventricle",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "ECMO-OPT-1": {
+                "title": "1-Recovery of end-organ function ...",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO-OPT-1",
+                "nextOptions": [
+                    {
+                        "title": "Yes",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "ECMO-OPT-Yes"
+                    },
+                    {
+                        "title": "No",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "ECMO-OPT-No"
+                    }
+                ]
+            },
+            "ECMO-OPT-No": {
+                "title": "No",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO-OPT-No",
+                "nextOptions": [
+                    {
+                        "title": "Continue VA-ECMO Support",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "ECMO-OPT-Yes": {
+                "title": "Yes",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "ECMO-OPT-Yes",
+                "nextOptions": [
+                    {
+                        "title": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Empiric VA-ECMO flow reduction (0.5-2L q24h)"
+                    }
+                ]
+            },
+            "Empiric VA-ECMO flow reduction (0.5-2L q24h)": {
+                "title": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                "nextOptions": [
+                    {
+                        "title": "Stable end-organ function (Cr/UO, ALT/AST, mental status, lactate) and TTE parameters (LV/RV function; LV size; MR; PA pressures)",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable end-organ function"
+                    }
+                ]
+            },
+            "Stable end-organ function": {
+                "title": "Stable end-organ function",
+                "description": "Are the patient hemodynamic variables, the end-organ function values looking healthy after we reduce the flow of the device?",
+                "explanation": [
+                    null
+                ],
+                "key": "Empiric VA-ECMO flow reduction (0.5-2L q24h)",
+                "nextOptions": [
+                    {
+                        "title": "Yes",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable end-organ function Yes"
+                    },
+                    {
+                        "title": "No",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable end-organ function No"
+                    }
+                ]
+            },
+            "Stable end-organ function Yes": {
+                "title": "Yes",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Stable end-organ function Yes",
+                "nextOptions": [
+                    {
+                        "title": "Reduce flow to 1.8L and attempt Clamp trial",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Reduce flow to 1.8L and attempt Clamp trial"
+                    }
+                ]
+            },
+            "Reduce flow to 1.8L and attempt Clamp trial": {
+                "title": "Reduce flow to 1.8L and attempt Clamp trial",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Reduce flow to 1.8L and attempt Clamp trial",
+                "nextOptions": [
+                    {
+                        "title": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm"
+                    }
+                ]
+            },
+            "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm": {
+                "title": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm",
+                "nextOptions": [
+                    {
+                        "title": "Decannulate ECMO or de-escalate to IABP",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Stable end-organ function No": {
+                "title": "No",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Stable end-organ function No",
+                "nextOptions": [
+                    {
+                        "title": "Continue VA-ECMO Support",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "Impella Protocol": {
+                "title": "Daily assessment on Impella CP",
+                "description": null,
+                "explanation": [
+                    null
+                ],
+                "key": "Impella Protocol",
+                "nextOptions": [
+                    {
+                        "title": "CPO >0.6; CI>2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CPO >0.6; CI>2.2"
+                    },
+                    {
+                        "title": "CPO <0.6; CI<2.2",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CPO <0.6; CI<2.2"
+                    },
+                    {
+                        "title": "If Impella-related complications (e.g. peripheral ischemia, hemolysis)",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Impella-related complications"
+                    }
+                ]
+            },
+            "Impella-related complications": {
+                "title": "If Impella-related complications (e.g. peripheral ischemia, hemolysis)",
+                "description": null,
+                "key": "Impella-related complications",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Consider rapid weaning or alternate MCS strategy",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "CPO <0.6; CI<2.2"
+                    }
+                ]
+            },
+            "CPO <0.6; CI<2.2": {
+                "title": "CPO <0.6; CI<2.2",
+                "description": null,
+                "key": "CPO <0.6; CI<2.2",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Stable CO, UO, Lactate, Pressors",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Stable CO, UO, Lactate, Pressors"
+                    },
+                    {
+                        "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "↓CO, ↓UO, ↑Lactate, ↑Pressors"
+                    }
+                ]
+            },
+            "Stable CO, UO, Lactate, Pressors": {
+                "title": "Stable CO, UO, Lactate, Pressors",
+                "description": null,
+                "key": "Stable CO, UO, Lactate, Pressors",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Careful observation vs Post PCI RHC Escalation Pathway",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "↓CO, ↓UO, ↑Lactate, ↑Pressors": {
+                "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                "description": "Escalation if either:\n1-High likelihood of recovery\n2-Suitable for durable MCS\n3-Candidacy for OHT",
+                "key": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                "explanation": [
+                    "Escalation if either:",
+                    " 1-High likelihood of recovery",
+                    " 2-Suitable for durable MCS",
+                    " 3-Candidacy for OHT"
+                ],
+                "nextOptions": [
+                    {
+                        "title": "PAPI",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "CPO >0.6; CI>2.2": {
+                "title": "CPO >0.6; CI>2.2",
+                "description": "1.Recovery of end-organ function (Cr/UO, ALT/AST, mental status, lactate)\n2.TTE suggesting improved cardiac function (LV/RV function; LV size; MR; PA pressures)\n3.Low dose vasopressors and ionotropes",
+                "key": "CPO >0.6; CI>2.2",
+                "nextOptions": [
+                    {
+                        "title": "Start weaning",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "Start weaning"
+                    }
+                ],
+                "explanation": [
+                    "Recovery of end-organ function (Cr/UO, ALT/AST, mental status, lactate).",
+                    "TTE suggesting improved cardiac function (LV/RV function; LV size; MR; PA pressures).",
+                    "Low dose vasopressors and ionotropes."
+                ]
+            },
+            "Start weaning": {
+                "title": "Start weaning",
+                "description": null,
+                "key": "Start weaning",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "requirement value 1"
+                    },
+                    {
+                        "title": "Stable CO, UO, Lactate, minimal pressor requirement",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": "requirement value 2"
+                    }
+                ]
+            },
+            "requirement value 1": {
+                "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
+                "description": null,
+                "key": "requirement value 1",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Abort Wean",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            },
+            "requirement value 2": {
+                "title": "Stable CO, UO, Lactate, minimal pressor requirement",
+                "description": "Decrease support (1-2 Ps) and monitor end-organ function (Cr/UO, ALT/AST, mental status, lactate) and TTE parameters (LV/RV function; LV size; MR; PA pressures)",
+                "key": "requirement value 2",
+                "explanation": [],
+                "nextOptions": [
+                    {
+                        "title": "Successful Explantation / downgrade to IABP",
+                        "description": null,
+                        "explanation": [
+                            null
+                        ],
+                        "nextKey": null
+                    }
+                ]
+            }
+        }
+    }
+}

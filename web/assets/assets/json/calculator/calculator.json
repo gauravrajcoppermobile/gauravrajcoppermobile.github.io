@@ -1,0 +1,558 @@
+{
+  "data": {
+    "title": "Hemodynamics Calculator",
+    "calculators": [
+      "Fick’s Cardiac Output and Cardiac Index",
+      "Calculate Shock Risk Score",
+      "CPO & PAPI (MCS Escalation)",
+      "SV (ml/m2/beat) & CO (L/min)",
+      "MAP (mmHg)",
+      "SVR (dyne*sec*cm^-5)",
+      "PVR (dyne*sec*cm^-5)",
+      "TransPulmonary Gradient",
+      "Absolute Weight-based Drip Rate"
+    ],
+    "options": {
+      "Fick’s Cardiac Output and Cardiac Index": {
+        "title": "Fick’s Cardiac Output and Cardiac Index",
+        "parameters": [
+          {
+            "title": "Patient Weight",
+            "unit": "kg"
+          },
+          {
+            "title": "Height",
+            "unit": "cm"
+          },
+          {
+            "title": "SaO2",
+            "unit": "%"
+          },
+          {
+            "title": "SvO2",
+            "unit": "%"
+          },
+          {
+            "title": "Hb",
+            "unit": "g/dL"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "SaO2",
+              "val_res": "Normal range : 95-100"
+            },
+            {
+              "val_title": "SvO2",
+              "val_res": "Normal range : 60-80"
+            },
+            {
+              "val_title": "Hemoglobin",
+              "val_res": "Normal range : 120-170"
+            }
+          ]
+        }
+      },
+      "Calculate Shock Risk Score": {
+        "title": "Calculate Shock Risk Score",
+        "exams": [
+          {
+            "title": "Physical Exam",
+            "exam_parameters": [
+              {
+                "title": "Extremities:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "Warm and well perfused"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "Cold and clammy"
+                  }
+                ]
+              },
+              {
+                "title": "Urinary Output:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "≥30 mL/h"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "<30 mL/h"
+                  }
+                ]
+              },
+              {
+                "title": "Lungs:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "Clear"
+                  },
+                  {
+                    "combination": "B",
+                    "combination_desc": "Rales"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "Extensive rales"
+                  }
+                ]
+              },
+              {
+                "title": "Mental Status:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "Normal mentation"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "Altered mental status"
+                  }
+                ]
+              },
+              {
+                "title": "Cardiac Collapse Imminent:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "No"
+                  },
+                  {
+                    "combination": "E",
+                    "combination_desc": "Yes"
+                  }
+                ]
+              },
+              {
+                "title": "Worsening (or not improving) signs/sx of hypoperfusion despite initial therapy:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "No"
+                  },
+                  {
+                    "combination": "D",
+                    "combination_desc": "Yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Biochemical Markers",
+            "exam_parameters": [
+              {
+                "title": "Arterial pH:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "≥7.2"
+                  },
+                  {
+                    "combination": "E",
+                    "combination_desc": "<7.2"
+                  }
+                ]
+              },
+              {
+                "title": "Lactate:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "Normal"
+                  },    {
+                    "combination": "C",
+                    "combination_desc": "≥ 2"
+                  },    {
+                    "combination": "D",
+                    "combination_desc": "Any of stage C and worsening and ≥ 2"
+                  },
+                  {
+                    "combination": "E",
+                    "combination_desc": "≥ 8"
+                  }
+                ]
+              },
+              {
+                "title": "BNP:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "Normal"
+                  },
+                  {
+                    "combination": "B",
+                    "combination_desc": "Elevated"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "Worsening (requires multiple measurements)"
+                  }
+                ]
+              },
+              {
+                "title": "LFT:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "Normal"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "Increased"
+                  },
+                  {
+                    "combination": "D",
+                    "combination_desc": "Worsening (requires multiple measurements)"
+                  }
+                ]
+              },
+              {
+                "title": "Creatinine:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "Normal or baseline"
+                  },
+                  {
+                    "combination": "B",
+                    "combination_desc": "1-1.5 times from baseline or <50% Drop in GFR"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "≥1.5 times from baseline or >50% drop in GFR"
+                  }
+                ]
+              },
+              {
+                "title": "CPR:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "No"
+                  },
+                  {
+                    "combination": "E",
+                    "combination_desc": "Yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Hemodynamics",
+            "exam_parameters": [
+              {
+                "title": "Blood Pressure:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "SBP ≥100 mmHg"
+                  },
+                  {
+                    "combination": "B",
+                    "combination_desc": "SBP <90 mmHg or MAP <60mmHg"
+                  }
+                ]
+              },
+              {
+                "title": "Heart Rate:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "<100 bpm"
+                  },
+                  {
+                    "combination": "B",
+                    "combination_desc": "≥100 bpm"
+                  }
+                ]
+              },
+              {
+                "title": "Cardiac Index:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "≥2.5 (if acute)"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": "<2.2 (if invasive hemodynamics performed)"
+                  }
+                ]
+              },
+              {
+                "title": "Pulmonary Capillary Wedge Pressure:",
+                "parameters": [
+                  {
+                    "combination": "A",
+                    "combination_desc": "≤15"
+                  },
+                  {
+                    "combination": "C",
+                    "combination_desc": ">15"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please select the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Rules",
+          "value": [
+            "The farther down in the alphabet, the higher the risk score with E being the highest.",
+            "Risk score A, B, C, D, E are assigned in two ways:",
+            "a) When 2 or more of the same maximal risk score letter appear from associated check boxes being ticked, the final Risk Score shown to the user is the singular score such as “E”. For example Lactate > 8 AND Severe Acidosis < 7.2 means the risk score is “E”",
+            "b) When only 1 box is checked in any one maximum risk category, for example one C Lactate > 2 is checked, but the rest are a mix of A and B, we display B/C. We truncate the A, but show that it is borderline C and B."
+          ]
+        }
+      },
+      "CPO & PAPI (MCS Escalation)": {
+        "title": "CPO & PAPI (MCS Escalation)",
+        "parameters": [
+          {
+            "title": "RA",
+            "unit": "mm/hg"
+          },
+          {
+            "title": "PA systolic",
+            "unit": "mm/hg"
+          },
+          {
+            "title": "PA diastolic",
+            "unit": "mm/hg"
+          },
+          {
+            "title": "MAP",
+            "unit": "mm/hg"
+          },
+          {
+            "title": "Cardiac Output",
+            "unit": "mm/hg"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "RA",
+              "val_res": "men range from 0-15 mm/hr to 0-20mm/hr women 0-20 mm/hr/ to 0-30mm/hr"
+            },
+            {
+              "val_title": "PA systolic",
+              "val_res": "The normal pulmonary artery systolic pressure is 20 mm Hg or less, and the normal mean (average) pulmonary artery pressure is 12 mm Hg"
+            },
+            {
+              "val_title": "PA diastolic",
+              "val_res": "The normal pulmonary artery diastolic pressure is 8-12 mm Hg and the normal mean (average) pulmonary artery pressure is 25 mm Hg"
+            },
+            {
+              "val_title": "MAP",
+              "val_res": "The Mean Arterial Pressure is normally between 65 and 110 mmHg"
+            },
+            {
+              "val_title": "CO",
+              "val_res": "The normal range for cardiac output is about 4 to 8 L/min"
+            }
+          ]
+        }
+      },
+      "SV (ml/m2/beat) & CO (L/min)": {
+        "title": "SV (ml/m2/beat) & CO (L/min)",
+        "parameters": [
+          {
+            "title": "Heart Rate",
+            "unit": "beats/min"
+          },
+          {
+            "title": "Stroke Volume",
+            "unit": "ml/beat"
+          },
+          {
+            "title": "Cardiac Output",
+            "unit": "L/min"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "Cardiac Index",
+              "val_res": "5-6 L/min in an at-rest to more than 35 L/min in elite athletes during exercise"
+            },
+            {
+              "val_title": "Stroke Volume",
+              "val_res": "The regular values of stroke volume are between 60 and 120 mL per beat."
+            }
+          ]
+        }
+      },
+      "MAP (mmHg)": {
+        "title": "MAP (mmHg)",
+        "parameters": [
+          {
+            "title": "DBP",
+            "unit": "mmHg"
+          },
+          {
+            "title": "SBP",
+            "unit": "mmHg"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "MAP",
+              "val_res": "MAP is normally between 65 and 110 mmHg."
+            }
+          ]
+        }
+      },
+      "SVR (dyne*sec*cm^-5)": {
+        "title": "SVR (dyne*sec*cm^-5)",
+        "parameters": [
+          {
+            "title": "MAP",
+            "unit": "mmHg"
+          },
+          {
+            "title": "MRAP",
+            "unit": "mmHg"
+          },
+          {
+            "title": "CO",
+            "unit": "L/min"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "SVR",
+              "val_res": "Normal SVR is 700 to 1,500 dynes/seconds/cm-5."
+            }
+          ]
+        }
+      },
+      "PVR (dyne*sec*cm^-5)": {
+        "title": "PVR (dyne*sec*cm^-5)",
+        "parameters": [
+          {
+            "title": "mPAP",
+            "unit": "mmHg"
+          },
+          {
+            "title": "PCWP",
+            "unit": "mmHg"
+          },
+          {
+            "title": "CO",
+            "unit": "L/min"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "PVR",
+              "val_res": "A normal value for pulmonary vascular resistance using conventional units is 0.25–1.6 mmHg·min/l. Pulmonary vascular resistance can also be represented in units of dynes/sec/cm5 (normal = 37-250 dynes/sec/cm5)."
+            }
+          ]
+        }
+      },
+      "TransPulmonary Gradient": {
+        "title": "TransPulmonary Gradient",
+        "parameters": [
+          {
+            "title": "Mean PAP",
+            "unit": "mmHg"
+          },
+          {
+            "title": "PCWP",
+            "unit": "mmHg"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "TransPulmonary\nGradient",
+              "val_res": "TP is normally between 5 to 10 mmHg."
+            }
+          ]
+        }
+      },
+      "Absolute Weight-based Drip Rate": {
+        "title": "Absolute Weight-based Drip Rate",
+        "parameters": [
+          {
+            "title": "Patient Weight",
+            "unit": "kg"
+          },
+          {
+            "title": "Absolute Rate",
+            "unit": "mcg/min"
+          },
+          {
+            "title": "Weight-Based Rate",
+            "unit": "ng/kg/min"
+          }
+        ],
+        "result_obj": {
+          "res_title": "Result",
+          "res_default": "Please fill out the required fields.",
+          "res_icon": "assets/icons/ic_info.svg"
+        },
+        "Ref_values_obj": null
+      }
+    }
+  }
+}

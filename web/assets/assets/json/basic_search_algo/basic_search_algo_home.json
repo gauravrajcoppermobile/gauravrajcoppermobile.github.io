@@ -1,0 +1,27 @@
+{
+    "data": {
+        "title": "BASICS OF SHOCK AND MCS",
+        "description": null,
+        "searchKeys":[],
+             "algorithms": [
+            {
+                "title": "Definition of Shock",
+                "description": null,
+                "explanation": [null],
+                "nextKey": "Definition of Shock"
+            },
+            {
+                "title": "Basic Management of Cardiogenic Shock",
+                "description": null,
+                "explanation": [null],
+                "nextKey": "Basic Management of Cardiogenic Shock"
+            },
+            {
+                "title": "Mechanical Cardiocirculatory Support (MCS) Devices",
+                "description": null,
+                "explanation": [null],
+                "nextKey": "Mechanical Cardiocirculatory Support (MCS) Devices"
+            }
+        ]
+    }
+}

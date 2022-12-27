@@ -1,0 +1,38 @@
+{
+    "data": {
+        "title": "Team",
+        "items": [
+            {
+                "item_title": "Annapoorna Kini, MD, MRCP, FACC",
+                "item_icon": "assets/images/team/kini.jpg",
+                "item_desc": "Dr. Kini is an endowed Zena and Michael A. Wiener Professor of Medicine, Director of Cardiac Catheterization Laboratory at The Mount Sinai Medical Center, Program Director of Interventional Cardiology Fellowship and Director of Structural Heart Intervention Program for the health system. Dr. Kini is an international leader in the field of percutaneous coronary intervention and heart valve therapy as well as a prolific educator through a large fellowship program, hundreds of live cases, and her educational application program. Read more on www.DoctorKini.com"
+            },
+            {
+                "item_title": "Gregory W Serrao, MD",
+                "item_icon": "assets/images/team/serro.jpg",
+                "item_desc": "Dr. Serrao is an Assistant Professor of medicine who leads the Mount Sinai Hospital’s shock response team under the leadership of Dr. Kini. The specialty equipment such as Balloon Pumps, Impella, and ECMO covered in this application require specialized care for appropriate selection and monitoring. Increasingly, institutions create specialized ‘shock docs’ like Dr. Serrao to provide the best possible care for the most critical of patients."
+            },
+            {
+                "item_title": "Parasuram Melarcode-Krishnamoorthy, MD",
+                "item_icon": "assets/images/team/parsuram.jpg",
+                "item_desc": "Dr. Krishnamoorthy is an Assistant Professor of medicine specializing in structural heart disease, staying on at Mount Sinai after his fellowship here. He serves as assistant director of the structural disease program and fellowship program at our Brooklyn location, and is working to expand our interventional sites in the health system."
+            },
+            {
+                "item_title": "Umesh K Gidwani, MD",
+                "item_icon": "assets/images/team/umesh.png",
+                "item_desc": "Dr. Gidwani is a Professor of Medicine and the director of the Cardiac Intensive Care Unit at the Mount Sinai Health system. Among other etiologies, STEMI, cardiogenic shock, and other complex patients post-PCI come under the care of Dr. Gidwani in the CICU. Patient care does not end after stent deployment or even discharge, and the MSH CICU is a critical stop along the way."
+            },
+            {
+                "item_title": "Gennaro Giustino, MD",
+                "item_icon": "assets/images/team/gennaro.png",
+                "item_desc": "Dr. Giustino is currently an interventional cardiology fellow at The Mount Sinai Hospital. Despite being early in his career track, Dr. Giustino has been heavily involved in both his clinical and research activities, taking part in a large number of publications, as well as contributing to medical education in this application when he served as Chief Cardiology Fellow under the mentorship of Dr. Valentin Fuster."
+            }
+            ,
+            {
+                "item_title": "Andriy Vengrenyuk, MS",
+                "item_icon": "assets/images/team/andriy.jpg",
+                "item_desc": "Andriy is an Associate Researcher at the Mount Sinai Hospital who works on clinical trials, publications, and educational programs such as the Complex Coronary Symposium, live case series, and educational and clinical applications. Andriy serves as the project manager for the educational application development process."
+            }
+        ]
+    }
+}

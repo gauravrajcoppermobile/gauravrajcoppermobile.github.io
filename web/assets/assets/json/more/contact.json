@@ -1,0 +1,23 @@
+{
+    "data": {
+        "title": "Contact Us",
+        "description":"For any suggestions or questions",
+        "subtitle":"Please contact us",
+        "items":[
+            {
+                "item_icon": "assets/icons/ic_loc.svg",
+                "item_details": "The Mount Sinai Hospital\nDivision of Interventional Cardiology\nOne Gustave L. Levy Place\nNew York, NY 10029"
+            }, {
+                "item_icon": "assets/icons/ic_phone.svg",
+                "item_details": "212.241.3419"
+            }, {
+                "item_icon": "assets/icons/ic_fax.svg",
+                "item_details": "212.534.2845"
+            }
+            , {
+                "item_icon": "assets/icons/ic_mail.svg",
+                "item_details": "annapoorna.kini@mountsinai.org"
+            }
+        ]
+    }
+}
