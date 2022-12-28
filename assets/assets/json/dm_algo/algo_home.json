@@ -1,7 +1,7 @@
 {
     "data": {
         "title": "Decision Making Algorithm",
-        "description": "Please choose one of the following lesion types to learn clinical use of Decision Making Algorithm in that particular scenario",
+        "description": "Please choose one of the following pathways to learn clinical use of Decision Making Algorithm in that particular scenario",
         "algorithms": [
             {
                 "title": "MCS Decision Making Algorithm",

@@ -55,7 +55,7 @@
             },
             {
               "val_title": "Hemoglobin",
-              "val_res": "Normal range : 120-170"
+              "val_res": "Normal range : 12-17"
             }
           ]
         }
@@ -329,23 +329,23 @@
         "parameters": [
           {
             "title": "RA",
-            "unit": "mm/hg"
+            "unit": "mmHg"
           },
           {
             "title": "PA systolic",
-            "unit": "mm/hg"
+            "unit": "mmHg"
           },
           {
             "title": "PA diastolic",
-            "unit": "mm/hg"
+            "unit": "mmHg"
           },
           {
             "title": "MAP",
-            "unit": "mm/hg"
+            "unit": "mmHg"
           },
           {
             "title": "Cardiac Output",
-            "unit": "mm/hg"
+            "unit": "L/min"
           }
         ],
         "result_obj": {
@@ -362,11 +362,11 @@
             },
             {
               "val_title": "PA systolic",
-              "val_res": "The normal pulmonary artery systolic pressure is 20 mm Hg or less, and the normal mean (average) pulmonary artery pressure is 12 mm Hg"
+              "val_res": "The normal pulmonary artery systolic pressure is 20 mmHg or less, and the normal mean (average) pulmonary artery pressure is 12 mmHg"
             },
             {
               "val_title": "PA diastolic",
-              "val_res": "The normal pulmonary artery diastolic pressure is 8-12 mm Hg and the normal mean (average) pulmonary artery pressure is 25 mm Hg"
+              "val_res": "The normal pulmonary artery diastolic pressure is 8-12 mmHg and the normal mean (average) pulmonary artery pressure is 25 mmHg"
             },
             {
               "val_title": "MAP",
