@@ -121,7 +121,7 @@
                 "key": "LHC+RHC",
                 "nextOptions": [
                     {
-                        "title": "Impella +/- PCI",
+                        "title": "• Impella +/- PCI",
                         "description": null,
                         "explanation": [
                             null
@@ -319,7 +319,7 @@
                 "key": "PAPI>1.0 BiV Failure",
                 "nextOptions": [
                     {
-                        "title": "IABP\nImpella CP and 5.0",
+                        "title": "\u2022 IABP\n• Impella CP and 5.0",
                         "description": null,
                         "explanation": [
                             null
@@ -363,7 +363,7 @@
                 "key": "No Respiratory Failure",
                 "nextOptions": [
                     {
-                        "title": "BiPella (Impella CP/5.0 + RP)",
+                        "title": "• BiPella (Impella CP/5.0 + RP)",
                         "description": null,
                         "explanation": [
                             null
@@ -381,7 +381,7 @@
                 "key": "Respiratory Failure",
                 "nextOptions": [
                     {
-                        "title": "ECMO",
+                        "title": "• ECMO",
                         "description": null,
                         "explanation": [
                             null
@@ -417,7 +417,7 @@
                 "key": "Hypovolemia",
                 "nextOptions": [
                     {
-                        "title": "Volume Resuscitation",
+                        "title": "• Volume Resuscitation",
                         "description": null,
                         "explanation": [
                             null
@@ -497,7 +497,7 @@
                 "key": "PAPI>1.0",
                 "nextOptions": [
                     {
-                        "title": "Medical Therapy",
+                        "title": "• Medical Therapy",
                         "description": null,
                         "explanation": [
                             null
@@ -541,7 +541,7 @@
                 "key": "Severe PH",
                 "nextOptions": [
                     {
-                        "title": "ECMO",
+                        "title": "• ECMO",
                         "description": null,
                         "explanation": [
                             null
@@ -559,7 +559,7 @@
                 "key": "No severe PH",
                 "nextOptions": [
                     {
-                        "title": "Impella RP\nProtekDuo\nSpectrum",
+                        "title": "• Impella RP\n• ProtekDuo\n• Spectrum",
                         "description": null,
                         "explanation": [
                             null
@@ -577,7 +577,7 @@
                 "key": "LV Dominant",
                 "nextOptions": [
                     {
-                        "title": "IABP\nImpella CP\nImpella 5.0",
+                        "title": "• IABP\n• Impella CP\n• Impella 5.0",
                         "description": null,
                         "explanation": [
                             null
@@ -595,7 +595,7 @@
                 "key": "CI > 2.2",
                 "nextOptions": [
                     {
-                        "title": "Consider non-cardiac etiology of shock",
+                        "title": "• Consider non-cardiac etiology of shock",
                         "description": null,
                         "explanation": [
                             null
@@ -613,7 +613,7 @@
                 "key": "Pericardial Disease / Tamponade",
                 "nextOptions": [
                     {
-                        "title": "Pericardiocentesis",
+                        "title": "• Pericardiocentesis",
                         "description": null,
                         "explanation": [
                             null
@@ -631,7 +631,7 @@
                 "key": "RV dilatation/dysfunction",
                 "nextOptions": [
                     {
-                        "title": "CTA to r/o PE",
+                        "title": "• CTA to r/o PE",
                         "description": null,
                         "explanation": [
                             null
@@ -771,7 +771,7 @@
                 "key": "SBP<90 and LVEDP>15-stemi",
                 "nextOptions": [
                     {
-                        "title": "Impella + PCI",
+                        "title": "• Impella + PCI",
                         "description": null,
                         "explanation": [
                             null
@@ -789,7 +789,7 @@
                 "key": "SBP>90 and LVEDP<15-stemi",
                 "nextOptions": [
                     {
-                        "title": "PCI",
+                        "title": "• PCI",
                         "description": null,
                         "explanation": [
                             null
@@ -807,7 +807,7 @@
                 "key": "LVEDP>30-stemi",
                 "nextOptions": [
                     {
-                        "title": "PCI",
+                        "title": "• PCI",
                         "description": null,
                         "explanation": [
                             null
@@ -843,7 +843,7 @@
                 "key": "Refractory",
                 "nextOptions": [
                     {
-                        "title": "ECLS / VA-ECMO",
+                        "title": "• ECLS / VA-ECMO",
                         "description": null,
                         "explanation": [
                             null
@@ -1029,7 +1029,7 @@
                 "key": "CPO>0.6 and CI>2.2",
                 "nextOptions": [
                     {
-                        "title": "Transfer to ICU with Swan-Ganz in place +/- Impella removal",
+                        "title": "• Transfer to ICU with Swan-Ganz in place +/- Impella removal",
                         "description": null,
                         "explanation": [
                             null
@@ -1127,7 +1127,7 @@
                 "key": "RV Support",
                 "nextOptions": [
                     {
-                        "title": "ProtekDuo\nRP Impella\nSpectrum\nECMO",
+                        "title": "• ProtekDuo\n• RP Impella\n• Spectrum\n• ECMO",
                         "description": null,
                         "explanation": [
                         ],
@@ -1162,7 +1162,7 @@
                 "key": "Escalate LV Support",
                 "nextOptions": [
                     {
-                        "title": "Impella 5.0/5.5\nECMO",
+                        "title": "• Impella 5.0/5.5\n• ECMO",
                         "description": null,
                         "explanation": [
                             null
@@ -1260,7 +1260,7 @@
                 "key": "Continue VA-ECMO",
                 "nextOptions": [
                     {
-                        "title": "Consideration for durable MCS/OHT",
+                        "title": "• Consideration for durable MCS/OHT",
                         "description": null,
                         "explanation": [
                             null
@@ -1322,7 +1322,7 @@
                 "key": "Impella 5.0/5.5",
                 "nextOptions": [
                     {
-                        "title": "Consideration for durable MCS/OHT",
+                        "title": "• Consideration for durable MCS/OHT",
                         "description": null,
                         "explanation": [
                             null
@@ -1340,7 +1340,7 @@
                 "key": "No chances of recovery within 2 weeks",
                 "nextOptions": [
                     {
-                        "title": "Consideration for durable MCS/OHT",
+                        "title": "• Consideration for durable MCS/OHT",
                         "description": null,
                         "explanation": [
                             null
@@ -1365,7 +1365,7 @@
                         "nextKey": "ECMO-OPT-1"
                     },
                     {
-                        "title": "LV Venting (Impella; IABP; LV apical cannula) or \nIndirect LA/PA venting, if:\nPCWP>20 mmHg\nPulse pressure <20\nClinical pulmonary edema\nEvidence of blood stagnation in LV or \naortic root\nOptimize chance of recovering the ventricle",
+                        "title": "LV Venting (Impella; IABP; LV apical cannula) or Indirect LA/PA venting, if:\n\n1. PCWP>20 mmHg\n2. Pulse pressure <20\n3. Clinical pulmonary edema\n4. Evidence of blood stagnation in LV or \n5. aortic root\n6. Optimize chance of recovering the ventricle",
                         "description": null,
                         "explanation": [
                             null
@@ -1409,7 +1409,7 @@
                 "key": "ECMO-OPT-No",
                 "nextOptions": [
                     {
-                        "title": "Continue VA-ECMO Support",
+                        "title": "• Continue VA-ECMO Support",
                         "description": null,
                         "explanation": [
                             null
@@ -1525,7 +1525,7 @@
                 "key": "CVP<15 mmHg, PCWP<20 mmHg, CO>4 L/min and LVEDD<6 mm",
                 "nextOptions": [
                     {
-                        "title": "Decannulate ECMO or de-escalate to IABP",
+                        "title": "• Decannulate ECMO or de-escalate to IABP",
                         "description": null,
                         "explanation": [
                             null
@@ -1543,7 +1543,7 @@
                 "key": "Stable end-organ function No",
                 "nextOptions": [
                     {
-                        "title": "Continue VA-ECMO Support",
+                        "title": "• Continue VA-ECMO Support",
                         "description": null,
                         "explanation": [
                             null
@@ -1593,7 +1593,7 @@
                 "explanation": [],
                 "nextOptions": [
                     {
-                        "title": "Consider rapid weaning or alternate MCS strategy",
+                        "title": "• Consider rapid weaning or alternate MCS strategy",
                         "description": null,
                         "explanation": [
                             null
@@ -1633,7 +1633,7 @@
                 "explanation": [],
                 "nextOptions": [
                     {
-                        "title": "Careful observation vs Post PCI RHC Escalation Pathway",
+                        "title": "• Careful observation vs Post PCI RHC Escalation Pathway",
                         "description": null,
                         "explanation": [
                             null
@@ -1691,7 +1691,7 @@
                         "explanation": [
                             null
                         ],
-                        "nextKey": "requirement value 1"
+                        "nextKey": "↓CO, ↓UO, ↑Lactate, ↑Pressors requirement"
                     },
                     {
                         "title": "Stable CO, UO, Lactate, minimal pressor requirement",
@@ -1699,14 +1699,14 @@
                         "explanation": [
                             null
                         ],
-                        "nextKey": "requirement value 2"
+                        "nextKey": "Stable CO, UO, Lactate, minimal pressor requirement"
                     }
                 ]
             },
-            "requirement value 1": {
+            "↓CO, ↓UO, ↑Lactate, ↑Pressors requirement": {
                 "title": "↓CO, ↓UO, ↑Lactate, ↑Pressors",
                 "description": null,
-                "key": "requirement value 1",
+                "key": "↓CO, ↓UO, ↑Lactate, ↑Pressors requirement",
                 "explanation": [],
                 "nextOptions": [
                     {
@@ -1719,14 +1719,14 @@
                     }
                 ]
             },
-            "requirement value 2": {
+            "Stable CO, UO, Lactate, minimal pressor requirement": {
                 "title": "Stable CO, UO, Lactate, minimal pressor requirement",
                 "description": "Decrease support (1-2 Ps) and monitor end-organ function (Cr/UO, ALT/AST, mental status, lactate) and TTE parameters (LV/RV function; LV size; MR; PA pressures)",
-                "key": "requirement value 2",
+                "key": "Stable CO, UO, Lactate, minimal pressor requirement",
                 "explanation": [],
                 "nextOptions": [
                     {
-                        "title": "Successful Explantation / downgrade to IABP",
+                        "title": "• Successful Explantation / downgrade to IABP",
                         "description": null,
                         "explanation": [
                             null
