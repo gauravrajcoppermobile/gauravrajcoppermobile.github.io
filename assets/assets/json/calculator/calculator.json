@@ -9,7 +9,7 @@
       "MAP (mmHg)",
       "SVR (dyne*sec*cm^-5)",
       "PVR (dyne*sec*cm^-5)",
-      "TransPulmonary Gradient",
+      "Transpulmonary Gradient",
       "Absolute Weight-based Drip Rate"
     ],
     "options": {
@@ -503,8 +503,8 @@
           ]
         }
       },
-      "TransPulmonary Gradient": {
-        "title": "TransPulmonary Gradient",
+      "Transpulmonary Gradient": {
+        "title": "Transpulmonary Gradient",
         "parameters": [
           {
             "title": "Mean PAP",
@@ -524,7 +524,7 @@
           "title": "Reference Values:",
           "values": [
             {
-              "val_title": "TransPulmonary\nGradient",
+              "val_title": "Transpulmonary Gradient",
               "val_res": "TP is normally between 5 to 10 mmHg."
             }
           ]
