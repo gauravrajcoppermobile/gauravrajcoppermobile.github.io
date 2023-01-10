@@ -45,7 +45,7 @@
       <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
   </picture>                          
   <script>
-    window.addEventListener('load', function(ev) {
+   jQuery.event.special.touchmove.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
@@ -55,7 +55,7 @@
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {
         return appRunner.runApp();
-      });
+      }, { passive: true });
     });
   </script>
 
