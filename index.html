@@ -55,7 +55,7 @@
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {
         return appRunner.runApp();
-      });
+      },  { passive: true});
     });
   </script>
 
