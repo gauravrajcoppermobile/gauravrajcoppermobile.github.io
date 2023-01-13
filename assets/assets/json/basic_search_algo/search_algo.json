@@ -190,7 +190,7 @@
               },
               {
                 "title": "Anticoagulation",
-                "description": "• Unfractionated Heparin with ACT target 160-180 s.\n• For the first 24 hours it is recommended to monitor ACT levels every 3 hours until a stable ACT is obtained."
+                "description": "• Unfractionated Heparin with ACT target 160-180 s.• For the first 24 hours it is recommended to monitor ACT levels every 3 hours until a stable ACT is obtained."
               }
             ],
             "nextKey": null
@@ -306,17 +306,17 @@
           },
           {
             "title": "Impella Console",
-            "description": "The right-side panel on the screen includes:\n• Alarms.• Flow control.• Display (Position Monitoring).• Purge system.• Impella flow.• Purge flow and pressure.• System power.\n\nThe bottom of the screen reports the following parameters:\n• Impella flow.• Purge flow and pressure.• System power.",
+            "description": "\u2022 The right-side panel on the screen includes:\n   ∙ Alarms.\n   ∙ Flow control.\n   ∙ Display (Position Monitoring).\n   ∙ Purge system.\n   ∙ Impella flow.\n   ∙ Purge flow and pressure.\n   ∙ System power.\n\nThe bottom of the screen reports the following parameters:\n\n   ∙ Impella flow.\n   ∙ Purge flow and pressure.\n   ∙ System power.",
             "imagePath": "assets/images/Impella Console.png"
           },
           {
             "title": "Purge System",
-            "description": "\u2022 The purge system contains dextrose and UH (recommended 25 U/mL).• Placement of Impella requires also administration of systemic anticoagulation.\n• Therefore, the total heparin delivered to the patient is equal to the heparin delivered through the purge system + systemic IV heparin.\n• This needs to be taken into account when dosing systemic IV heparin.",
+            "description": "\u2022 The purge system contains dextrose and UH (recommended 25 U/mL).• Placement of Impella requires also administration of systemic anticoagulation.• Therefore, the total heparin delivered to the patient is equal to the heparin delivered through the purge system + systemic IV heparin.• This needs to be taken into account when dosing systemic IV heparin.",
             "imagePath": "assets/images/Purge System.png"
           },
           {
             "title": "Impella Positioning and Monitoring",
-            "description": "The right-side panel on the screen includes:\n\u2022 Transthoracic echocardiography using the parasternal long-axis view can be used to monitor the Impella positioning in the ICU.\n• Correct positioning occurs when the inlet area is located 3.5 cm from the aortic valve plane, at the middle of the LV cavity, with the distal tip of the pump oriented towards the LV apex, away from the papillary muscles.",
+            "description": "• The right-side panel on the screen includes:\nTransthoracic echocardiography using the parasternal long-axis view can be used to monitor the Impella positioning in the ICU.\nCorrect positioning occurs when the inlet area is located 3.5 cm from the aortic valve plane, at the middle of the LV cavity, with the distal tip of the pump oriented towards the LV apex, away from the papillary muscles.",
             "imagePath": "assets/images/Positioning and Monitoring1.png"
           },
           {
@@ -337,7 +337,7 @@
               },
               {
                 "title": "Hemodynamic effect",
-                "description": "• Increases RV and PA peak systolic pressure.\n• Decreases RA pressure."
+                "description": "• Increases RV and PA peak systolic pressure.• Decreases RA pressure."
               },
               {
                 "title": "Cannula size",
@@ -362,12 +362,12 @@
         "explanation": [
           {
             "title": "Mechanism of action",
-            "description": "• Right atrium to pulmonary artery.\n• Oxygenation (optional).",
+            "description": "• Right atrium to pulmonary artery.• Oxygenation (optional).",
             "imagePath": null
           },
           {
             "title": "Hemodynamic effect",
-            "description": "Increases RV and PA peak systolic pressure.\n• Decreases CVP.",
+            "description": "• Increases RV and PA peak systolic pressure.• Decreases CVP.",
             "imagePath": null
           },
           {
@@ -440,7 +440,7 @@
           },
           {
             "title": "Hemodynamic effect",
-            "description": "\u2022 Full biventricular cardiocirculatory support.\n• Reduces CVP.\n• Increases afterload.",
+            "description": "\u2022 Full biventricular cardiocirculatory support.• Reduces CVP.• Increases afterload.",
             "imagePath": null
           },
           {
@@ -450,7 +450,7 @@
           },
           {
             "title": "Insertion technique",
-            "description": "\u2022 Insertion technique.\n\u2022 Percutaneous transfemoral artery and vein (Panel A).\n• Surgical (or central) cannulation in the right atrium and aorta (Panel B).",
+            "description": "\u2022 Insertion technique.\u2022 Percutaneous transfemoral artery and vein (Panel A).• Surgical (or central) cannulation in the right atrium and aorta (Panel B).",
             "imagePath": null
           },
           {
@@ -504,32 +504,32 @@
         "explanation": [
           {
             "title": "Norepinephrine",
-            "description": "\u2022 Mechanism of action – Alpha more than beta agonist activity primarily leading to vasoconstriction.\n• Indications – First Choice vasopressor.\n• Dosing - 5 to 30 mcg/minute*, can go higher if there’s concomitant septic shock.",
+            "description": "\u2022 Mechanism of action – Alpha more than beta agonist activity primarily leading to vasoconstriction.• Indications – First Choice vasopressor.• Dosing - 5 to 30 mcg/minute*, can go higher if there’s concomitant septic shock.",
             "imagePath": null
           },
           {
             "title": "Epinephrine",
-            "description": "• Mechanism of action – More Beta than Alpha agonist activity translating to milder vasoconstriction and more potent inotropic effect compared to Norepinephrine.\n• Indications – Additional vasopressor, Better at RV support.\n• Dosing - 1 to 40 mcg/minute*.",
+            "description": "• Mechanism of action – More Beta than Alpha agonist activity translating to milder vasoconstriction and more potent inotropic effect compared to Norepinephrine.• Indications – Additional vasopressor, Better at RV support.• Dosing - 1 to 40 mcg/minute*.",
             "imagePath": null
           },
           {
             "title": "Vasopressin",
-            "description": "• Mechanism of action – increase SVR and MAP through Arginine vasopressin receptor stimulation.\n• Indications – adjunct vasopressor.\n• Dosing – Fixed dose 0.03 unit/minute.",
+            "description": "• Mechanism of action – increase SVR and MAP through Arginine vasopressin receptor stimulation.• Indications – adjunct vasopressor.• Dosing – Fixed dose 0.03 unit/minute.",
             "imagePath": null
           },
           {
             "title": "Dopamine",
-            "description": "• Mechanism of action – Dose dependent Renal and mesenteric vasodilation to cardiac stimulation.\n• Indications – not the preferred initial agent in cardiogenic shock, bradyarrhythmia.\n• Dosing - 0.5 to 20 mcg/kg/minute.",
+            "description": "• Mechanism of action – Dose dependent Renal and mesenteric vasodilation to cardiac stimulation.• Indications – not the preferred initial agent in cardiogenic shock, bradyarrhythmia.• Dosing - 0.5 to 20 mcg/kg/minute.",
             "imagePath": null
           },
           {
             "title": "Dobutamine",
-            "description": "• Mechanism of action – stimulates Beta1 and some Alpha receptors leading to increased contractility and heart rate.\n• Indications – Cardiogenic shock without significant hypotension, improves RV-PA coupling in RVMI.\n• Dosing - 2 to 10 mcg/kg/minute for ionotropic support.",
+            "description": "• Mechanism of action – stimulates Beta1 and some Alpha receptors leading to increased contractility and heart rate.• Indications – Cardiogenic shock without significant hypotension, improves RV-PA coupling in RVMI.• Dosing - 2 to 10 mcg/kg/minute for ionotropic support.",
             "imagePath": null
           },
           {
             "title": "Milrinone",
-            "description": "• Mechanism of action – Inotropy and vasodilation through PDE inhibition.\n• Indications – bridge advanced HF therapies or maintenance therapy in HFrEF.\n• Dosing - 0.125 to 0.75 mcg/kg/minute.\n\n*Calculated and rounded for an 80 kg patient based on weight-based dosing.",
+            "description": "• Mechanism of action – Inotropy and vasodilation through PDE inhibition.• Indications – bridge advanced HF therapies or maintenance therapy in HFrEF.• Dosing - 0.125 to 0.75 mcg/kg/minute.\n\n*Calculated and rounded for an 80 kg patient based on weight-based dosing.",
             "imagePath": null
           },
           {
@@ -553,7 +553,7 @@
         "explanation": [
           {
             "title": "Diagnosis and Characterization of the Types of Shock Syndromes",
-            "description": "\u2022 The major determinant of tissue perfusion (and systemic blood pressure [BP]) are cardiac output (CO) and systemic vascular resistance (SVR).\n• BP = CO x SVR.\n• Where CO = Heart Rate (HR) x Stroke Volume (SV).\n• Stroke volume is determined by: Preload Myocardial contractility Afterload.\n• Biologic processes than can change any of this physiological variables can result in hypotension and shock.\n• Serum lactate levels are used as surrogates for hypoperfusion and tissue hypoxia.",
+            "description": "\u2022 The major determinant of tissue perfusion (and systemic blood pressure [BP]) are cardiac output (CO) and systemic vascular resistance (SVR).• BP = CO x SVR.• Where CO = Heart Rate (HR) x Stroke Volume (SV).• Stroke volume is determined by:\n   ∙ Preload.\n   ∙ Myocardial contractility.\n   ∙ Afterload.• Biologic processes than can change any of these physiological variables can result in hypotension and shock.• Serum lactate levels are used as surrogates for hypoperfusion and tissue hypoxia.",
             "imagePath": null
           },
           {
@@ -584,7 +584,7 @@
             "explanation": [
               {
                 "title": null,
-                "description": "• Myocardial infarction.\n• Acute decompensated heart failure.\n• Myocarditis / Cardiomyopathy.\n• Arrhythmias (Bradyarrhythmias or Tachyarrhthmias).\n• Valvular heart disease (Acute severe valvular insufficiency, papillary or chordae tendineae rupture, valvular abscess; critical valvular stenosis).\n\u2022 Mechanical complications of acute myocardial infarction."
+                "description": "• Myocardial infarction.• Acute decompensated heart failure.• Myocarditis / Cardiomyopathy.• Arrhythmias (Bradyarrhythmias or Tachyarrhthmias).• Valvular heart disease (Acute severe valvular insufficiency, papillary or chordae tendineae rupture, valvular abscess; critical valvular stenosis).\u2022 Mechanical complications of acute myocardial infarction."
               }
             ],
             "nextKey": null
@@ -595,11 +595,11 @@
             "explanation": [
               {
                 "title": "Septic",
-                "description": "• Bacterial.\n• Fungal.\n• Viral.\n\u2022 Parasitic."
+                "description": "• Bacterial.• Fungal.• Viral.\u2022 Parasitic."
               },
               {
                 "title": "Non - Septic",
-                "description": "• Inflammatory shock (e.g. burns, trauma, pancreatitis, cytokine release syndrome).\n• Anaphylactic Shock.\n• Neurogenic Shock.\n• Acute liver failure.\n• Vasoplegia (e.g. post-cardiopulmonary bypass)."
+                "description": "• Inflammatory shock (e.g. burns, trauma, pancreatitis, cytokine release syndrome).• Anaphylactic Shock.• Neurogenic Shock.• Acute liver failure.• Vasoplegia (e.g. post-cardiopulmonary bypass)."
               }
             ],
             "nextKey": null
@@ -609,7 +609,7 @@
             "description": null, "explanation": [
               {
                 "title": null,
-                "description": "• Pulmonary Embolism.\n• Severe pulmonary hypertension.\n• Tension pneumothorax.\n• Pericardial tamponade.\n• Left ventricular or right ventricular outflow track obstruction."
+                "description": "• Pulmonary Embolism.• Severe pulmonary hypertension.• Tension pneumothorax.• Pericardial tamponade.• Left ventricular or right ventricular outflow track obstruction."
               }
             ],
             "nextKey": null
@@ -620,11 +620,11 @@
             "explanation": [
               {
                 "title": "Hemorrhagic",
-                "description": "\u2022 Hypovolemic Shock.\n• Trauma.\n• Procedure-related complications."
+                "description": "\u2022 Hypovolemic Shock.• Trauma.• Procedure-related complications."
               },
               {
                 "title": "Non -Hemorrhagic",
-                "description": "\u2022 Gastrointestinal losses.\n\u2022 Skin losses.\n\u2022 Renal losses.\n\u2022 Third space losses into the extravascular space or body cavities."
+                "description": "\u2022 Gastrointestinal losses.\u2022 Skin losses.\u2022 Renal losses.\u2022 Third space losses into the extravascular space or body cavities."
               }
             ],
             "nextKey": null

@@ -1,13 +1,13 @@
 {
     "data": {
         "options": {
-            "Clinical Presentation ?": {
-                "title": "Clinical Presentation ?",
+            "Clinical Presentation": {
+                "title": "Clinical Presentation",
                 "description": null,
                 "explanation": [
-                    null
+
                 ],
-                "key": "Clinical Presentation ?",
+                "key": "Clinical Presentation",
                 "nextOptions": [
                     {
                         "title": "Cardiogenic Shock",

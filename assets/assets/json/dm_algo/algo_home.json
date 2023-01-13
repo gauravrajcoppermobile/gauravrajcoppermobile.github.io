@@ -7,14 +7,14 @@
                 "title": "MCS Decision Making Algorithm",
                 "icon": "assets/icons/ic_dmalgo_mcq.svg",
                 "description": null,
-                "explanation": [null],
-                "nextKey": "Clinical Presentation ?"
+                "explanation": [],
+                "nextKey": "Clinical Presentation"
             },
             {
                 "title": "Weaning and Escalation Algorithms",
                 "icon": "assets/icons/ic_weaning_mcq.svg",
                 "description": null,
-                "explanation": [null],
+                "explanation": [],
                 "nextKey": "MCS Decision Making Algorithms in patients with Cardiogenic Shock"
             }
         ]

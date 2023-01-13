@@ -35,6 +35,10 @@
           {
             "title": "Hb",
             "unit": "g/dL"
+          },
+          {
+            "title": "Age",
+            "unit": null
           }
         ],
         "result_obj": {
@@ -46,6 +50,9 @@
           "title": "Reference Values:",
           "values": [
             {
+              "val_title": "Formulae",
+              "val_res": "Oxygen For below age 70 \noxygen/min= 125/min\n\nOxygen For above age 70 = oxygen/min= 110/min   \n\nBSA =   (height * weight) / 3600)^(1 / 2)\n\nFick’s Cardiac Output =  (oxygen/min * 100) * ( BSA / ((sao - svo) * hemoglobin * 13.4))\n\n Cardiac Index = Fick’s Cardiac Output/BSA"
+            },   {
               "val_title": "SaO2",
               "val_res": "Normal range : 95-100"
             },
@@ -357,8 +364,11 @@
           "title": "Reference Values:",
           "values": [
             {
+              "val_title": "Formulae",
+              "val_res": "CPO = (MAP * CO) / 451\n\nPAPI = (SPAP - DPAP) / RA"
+            },  {
               "val_title": "RA",
-              "val_res": "men range from 0-15 mm/hr to 0-20mm/hr women 0-20 mm/hr/ to 0-30mm/hr"
+              "val_res": "men range from 0-15 mm/hr to 0-20mm/hr\nwomen 0-20 mm/hr/ to 0-30 mm/hr"
             },
             {
               "val_title": "PA systolic",
@@ -404,6 +414,10 @@
           "title": "Reference Values:",
           "values": [
             {
+              "val_title": "Formulae",
+              "val_res": "Stroke Volume:-\n(Cardiac Output * 1000) / Heart Rate\n\nCardiac Output:-\n(Stroke Volume * Heart Rate) / 1000"
+            },
+            {
               "val_title": "Cardiac Index",
               "val_res": "5-6 L/min in an at-rest to more than 35 L/min in elite athletes during exercise"
             },
@@ -418,11 +432,11 @@
         "title": "MAP (mmHg)",
         "parameters": [
           {
-            "title": "DBP",
+            "title": "SBP",
             "unit": "mmHg"
           },
           {
-            "title": "SBP",
+            "title": "DBP",
             "unit": "mmHg"
           }
         ],
@@ -435,6 +449,9 @@
           "title": "Reference Values:",
           "values": [
             {
+              "val_title": "Formulae",
+              "val_res": "MAP:-\n((2 * DBP) + SBP) / 3"
+            },   {
               "val_title": "MAP",
               "val_res": "MAP is normally between 65 and 110 mmHg."
             }
@@ -466,6 +483,9 @@
           "title": "Reference Values:",
           "values": [
             {
+              "val_title": "Formulae",
+              "val_res": "SVR:-\n(80 * (MAP - MRAP)) / Cardiac Output"
+            } , {
               "val_title": "SVR",
               "val_res": "Normal SVR is 700 to 1,500 dynes/seconds/cm-5."
             }
@@ -497,6 +517,9 @@
           "title": "Reference Values:",
           "values": [
             {
+              "val_title": "Formulae",
+              "val_res": "PVR:-\n(80 * (MPAP - PCWP)) / Cardiac Output"
+            },   {
               "val_title": "PVR",
               "val_res": "A normal value for pulmonary vascular resistance using conventional units is 0.25–1.6 mmHg·min/l. Pulmonary vascular resistance can also be represented in units of dynes/sec/cm5 (normal = 37-250 dynes/sec/cm5)."
             }
@@ -523,6 +546,10 @@
         "Ref_values_obj": {
           "title": "Reference Values:",
           "values": [
+            {
+              "val_title": "Formulae",
+              "val_res": "Transpulmonary Gradient:-\nMPAP - PCWP"
+            },
             {
               "val_title": "Transpulmonary Gradient",
               "val_res": "TP is normally between 5 to 10 mmHg."
@@ -551,7 +578,15 @@
           "res_default": "Please fill out the required fields.",
           "res_icon": "assets/icons/ic_info.svg"
         },
-        "Ref_values_obj": null
+        "Ref_values_obj":  {
+          "title": "Reference Values:",
+          "values": [
+            {
+              "val_title": "Formulae",
+              "val_res": "Absolute Rate :-\n(Weight-Based Rate * Patient Weight) / 1000\n\nWeight-Based Rate :-\n(Absolute Rate * 1000) / Patient Weight"
+            }
+          ]
+        }
       }
     }
   }
