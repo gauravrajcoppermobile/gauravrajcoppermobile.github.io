@@ -293,33 +293,33 @@
                 "key": "BiV Failure",
                 "nextOptions": [
                     {
-                        "title": "PAPI>1.0",
+                        "title": "PAPI > 0.9",
                         "description": null,
                         "explanation": [
                             null
                         ],
-                        "nextKey": "PAPI>1.0 BiV Failure"
+                        "nextKey": "PAPI > 0.9 BiV Failure"
                     },
                     {
-                        "title": "PAPI<1.0",
+                        "title": "PAPI ≤ 0.9",
                         "description": null,
                         "explanation": [
                             null
                         ],
-                        "nextKey": "PAPI<1.0 BiV Failure"
+                        "nextKey": "PAPI ≤ 0.9 BiV Failure"
                     }
                 ]
             },
-            "PAPI>1.0 BiV Failure": {
-                "title": "PAPI>1.0",
+            "PAPI > 0.9 BiV Failure": {
+                "title": "PAPI > 0.9",
                 "description": null,
                 "explanation": [
                     null
                 ],
-                "key": "PAPI>1.0 BiV Failure",
+                "key": "PAPI > 0.9 BiV Failure",
                 "nextOptions": [
                     {
-                        "title": "\u2022 IABP\n• Impella CP and 5.0",
+                        "title": "  Options Include:\n\u2022 IABP\n• Impella CP and 5.0",
                         "description": null,
                         "explanation": [
                             null
@@ -328,13 +328,13 @@
                     }
                 ]
             },
-            "PAPI<1.0 BiV Failure": {
-                "title": "PAP<1.0",
+            "PAPI ≤ 0.9 BiV Failure": {
+                "title": "PAPI ≤ 0.9",
                 "description": null,
                 "explanation": [
                     null
                 ],
-                "key": "PAPI<1.0 BiV Failure",
+                "key": "PAPI ≤ 0.9 BiV Failure",
                 "nextOptions": [
                     {
                         "title": "No Respiratory Failure",
@@ -366,7 +366,6 @@
                         "title": "• BiPella (Impella CP/5.0 + RP)",
                         "description": null,
                         "explanation": [
-                            null
                         ],
                         "nextKey": null
                     }
@@ -376,7 +375,6 @@
                 "title": "Respiratory Failure",
                 "description": null,
                 "explanation": [
-                    null
                 ],
                 "key": "Respiratory Failure",
                 "nextOptions": [
@@ -384,7 +382,6 @@
                         "title": "• ECMO",
                         "description": null,
                         "explanation": [
-                            null
                         ],
                         "nextKey": null
                     }
@@ -471,30 +468,30 @@
                 "key": "RV Dominant",
                 "nextOptions": [
                     {
-                        "title": "PAPI>1.0",
+                        "title": "PAPI > 0.9",
                         "description": null,
                         "explanation": [
                             null
                         ],
-                        "nextKey": "PAPI>1.0"
+                        "nextKey": "PAPI > 0.9"
                     },
                     {
-                        "title": "PAP<1.0",
+                        "title": "PAPI ≤ 0.9",
                         "description": null,
                         "explanation": [
                             null
                         ],
-                        "nextKey": "PAP<1.0"
+                        "nextKey": "PAPI ≤ 0.9"
                     }
                 ]
             },
-            "PAPI>1.0": {
-                "title": "PAPI>1.0",
+            "PAPI > 0.9": {
+                "title": "PAPI > 0.9",
                 "description": null,
                 "explanation": [
                     null
                 ],
-                "key": "PAPI>1.0",
+                "key": "PAPI > 0.9",
                 "nextOptions": [
                     {
                         "title": "• Medical Therapy",
@@ -506,13 +503,13 @@
                     }
                 ]
             },
-            "PAP<1.0": {
-                "title": "PAP<1.0",
+            "PAPI ≤ 0.9": {
+                "title": "PAPI ≤ 0.9",
                 "description": null,
                 "explanation": [
                     null
                 ],
-                "key": "PAP<1.0",
+                "key": "PAPI ≤ 0.9",
                 "nextOptions": [
                     {
                         "title": "Severe PH",
@@ -559,7 +556,7 @@
                 "key": "No severe PH",
                 "nextOptions": [
                     {
-                        "title": "• Impella RP\n• ProtekDuo\n• Spectrum",
+                        "title": "  Options Include:\n• Impella RP\n• ProtekDuo\n• Spectrum",
                         "description": null,
                         "explanation": [
                             null
@@ -577,7 +574,7 @@
                 "key": "LV Dominant",
                 "nextOptions": [
                     {
-                        "title": "• IABP\n• Impella CP\n• Impella 5.0",
+                        "title": "  Options Include:\n• IABP\n• Impella CP\n• Impella 5.0",
                         "description": null,
                         "explanation": [
                             null
@@ -931,12 +928,12 @@
                 "key": "Impella + PCI",
                 "nextOptions": [
                     {
-                        "title": "RHC",
+                        "title": "Post-PCI RHC",
                         "description": null,
                         "explanation": [
                             null
                         ],
-                        "nextKey": "RHC"
+                        "nextKey": "Post-PCI RHC"
                     }
                 ]
             },
@@ -965,24 +962,6 @@
                     null
                 ],
                 "key": "PCI",
-                "nextOptions": [
-                    {
-                        "title": "RHC",
-                        "description": null,
-                        "explanation": [
-                            null
-                        ],
-                        "nextKey": "RHC"
-                    }
-                ]
-            },
-            "RHC": {
-                "title": "RHC",
-                "description": null,
-                "explanation": [
-                    null
-                ],
-                "key": "RHC",
                 "nextOptions": [
                     {
                         "title": "Post-PCI RHC",
@@ -1083,30 +1062,30 @@
                 "key": "PAPI",
                 "nextOptions": [
                     {
-                        "title": "PAPI<1.1",
+                        "title": "PAPI > 0.9",
                         "description": null,
                         "explanation": [
                             null
                         ],
-                        "nextKey": "PAPI<1.1"
+                        "nextKey": "PAPI > 0.9 in PAPI"
                     },
                     {
-                        "title": "PAPI>1.1",
+                        "title": "PAPI ≤ 0.9",
                         "description": null,
                         "explanation": [
                             null
                         ],
-                        "nextKey": "PAPI>1.1"
+                        "nextKey": "PAPI ≤ 0.9 in PAPI"
                     }
                 ]
             },
-            "PAPI<1.1": {
-                "title": "PAPI<1.1",
+            "PAPI ≤ 0.9 in PAPI": {
+                "title": "PAPI ≤ 0.9",
                 "description": null,
                 "explanation": [
                     null
                 ],
-                "key": "PAPI<1.1",
+                "key": "PAPI ≤ 0.9 in PAPI",
                 "nextOptions": [
                     {
                         "title": "RV Support",
@@ -1127,7 +1106,7 @@
                 "key": "RV Support",
                 "nextOptions": [
                     {
-                        "title": "• ProtekDuo\n• RP Impella\n• Spectrum\n• ECMO",
+                        "title": "  Options Include:\n• ProtekDuo\n• RP Impella\n• Spectrum\n• ECMO",
                         "description": null,
                         "explanation": [
                         ],
@@ -1135,13 +1114,12 @@
                     }
                 ]
             },
-            "PAPI>1.1": {
-                "title": "PAPI>1.1",
+            "PAPI > 0.9 in PAPI": {
+                "title": "PAPI > 0.9",
                 "description": null,
                 "explanation": [
-                    null
                 ],
-                "key": "PAPI>1.1",
+                "key": "PAPI > 0.9 in PAPI",
                 "nextOptions": [
                     {
                         "title": "Escalate LV Support",
@@ -1162,7 +1140,7 @@
                 "key": "Escalate LV Support",
                 "nextOptions": [
                     {
-                        "title": "• Impella 5.0/5.5\n• ECMO",
+                        "title": "  Options Include:\n• Impella 5.0/5.5\n• ECMO",
                         "description": null,
                         "explanation": [
                             null

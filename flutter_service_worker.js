@@ -14,10 +14,9 @@ const RESOURCES = {
 "splash/img/light-1x.png": "44764c644a16178ed296bdcc0c3193f4",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
 "splash/style.css": "431cc28dc41c04d8be4413234333e68d",
-"index.html": "3192039a561f6f6d378bb839b9d3e8e8",
-"/": "3192039a561f6f6d378bb839b9d3e8e8",
-"main.dart.js": "7c569813dbe94dc9a7f8585db18ce660",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"index.html": "bd11022f20a3a6fd2ef7ba4adc46642b",
+"/": "bd11022f20a3a6fd2ef7ba4adc46642b",
+"main.dart.js": "ae266f93375731235eab43170381ca7e",
 "favicon.png": "d49970d756270615d8859f10b34b4cc0",
 "icons/Icon-192.png": "95da0f64923e23f27ef0fd04202654fc",
 "icons/Icon-maskable-192.png": "95da0f64923e23f27ef0fd04202654fc",
@@ -75,8 +74,8 @@ const RESOURCES = {
 "assets/assets/images/HemodynamicProfiles.png": "d0d7ba98239b7631c1dd1de44fa247ea",
 "assets/assets/images/bgWeb.svg": "bbea55fec0bb68f1d42259ab7ff7f9b8",
 "assets/assets/images/bgMob.svg": "5fac5ebc58bb72013521ba9dbb2b132e",
-"assets/assets/json/calculator/calculator.json": "074b5c9c22c04d32a816c3c7472c9d16",
-"assets/assets/json/dm_algo/mcs_decision_algo.json": "9974ce4f334c8317e3ea0a556c0a104c",
+"assets/assets/json/calculator/calculator.json": "c8d9156db74a18cfc946d8d8a5b34c61",
+"assets/assets/json/dm_algo/mcs_decision_algo.json": "5b00b6391f9bfb12e5bea66de12e6a11",
 "assets/assets/json/dm_algo/weaning_algo.json": "55967a3224df20f8df72e8ac1a5f4d5b",
 "assets/assets/json/dm_algo/algo_home.json": "aadd8881815e56b6a327c1287d91abde",
 "assets/assets/json/more/more_home.json": "470f1f83a221694781161b46611fce64",
@@ -87,7 +86,7 @@ const RESOURCES = {
 "assets/assets/json/more/about.json": "0b8dd7442f693c7f2b8764d2e9358f17",
 "assets/assets/json/more/team.json": "359eda067cd4f6a7a8c61adbbe75fb08",
 "assets/assets/json/basic_search_algo/basic_search_algo_home.json": "c67f5cd465809b396bb117127f86b752",
-"assets/assets/json/basic_search_algo/search_algo.json": "4b281b02407c9e42a854f55df81c1f01",
+"assets/assets/json/basic_search_algo/search_algo.json": "5681344a4ef98bef2e5dfb94feeacc3e",
 "assets/assets/icons/ic_phone.svg": "6f0000ac36e5d22bd3e0aed86a48699b",
 "assets/assets/icons/ic_mail.svg": "075dc2e07f3dbb7e492bf60345acc6fc",
 "assets/assets/icons/ic_dot.svg": "2aa8201603cce41d11f21ea130177948",
@@ -119,11 +118,7 @@ const RESOURCES = {
 "assets/assets/icons/ic_contact.svg": "7e5db42ddf5f96646a380fb693745cd6",
 "assets/assets/icons/ic_arrow.svg": "c000d15c0be2900308676fe68b770ad7",
 "assets/assets/icons/ic_search.svg": "0ef297791696e9cf7d44db0f139c6e3e",
-"assets/assets/icons/logo_s.png": "a79b4408dc60fbe125a66a53f984c485",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
+"assets/assets/icons/logo_s.png": "a79b4408dc60fbe125a66a53f984c485"
 };
 
 // The application shell files that are downloaded before a service worker can

@@ -65,7 +65,7 @@
         },
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-1-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 1 equations.png"
         }
       },
       "Calculate Shock Risk Score": {
@@ -367,6 +367,12 @@
           "title": "Reference Values:",
           "values": [
             {
+              "val_title": "CPO Target",
+              "val_res": "CPO < 0.6; below goal+CPO 0.6-0.8; borderline+CPO > 0.8 at goal"
+            },   {
+              "val_title": "PAPI Target",
+              "val_res": "PAPI < 0.9; below goal+PAPI 0.9-1.1; borderline+PAPI > 1.1; at goal"
+            },   {
               "val_title": "RA",
               "val_res": "men range from 0-15 mm/hr to 0-20mm/hr\nwomen 0-20 mm/hr/ to 0-30 mm/hr"
             },
@@ -390,7 +396,7 @@
         },
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-3-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 3 equations.png"
         }
       },
       "SV (ml/m2/beat) & CO (L/min)": {
@@ -429,7 +435,7 @@
         },
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-4-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 4 equations.png"
         }
       },
       "MAP (mmHg)": {
@@ -460,7 +466,7 @@
         },
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-5-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 5 equations.png"
         }
       },
       "SVR (dyne*sec*cm^-5)": {
@@ -495,7 +501,7 @@
         },
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-6-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 6 equations.png"
         }
       },
       "PVR (dyne*sec*cm^-5)": {
@@ -530,7 +536,7 @@
         },
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-7-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 7 equations.png"
         }
       },
       "Transpulmonary Gradient": {
@@ -561,7 +567,7 @@
         },
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-8-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 8 equations.png"
         }
       },
       "Absolute Weight-based Drip Rate": {
@@ -588,7 +594,7 @@
         "Ref_values_obj": null,
         "equation_obj": {
           "equation_title": "Formulae",
-          "equation_icon": "assets/images/equations/Calc-9-equations.svg"
+          "equation_icon": "assets/images/equations/Calc 9 equations.png"
         }
       }
     }
