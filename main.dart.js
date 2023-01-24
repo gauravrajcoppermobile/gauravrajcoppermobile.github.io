@@ -80505,16 +80505,16 @@ $S:0}
 A.no.prototype={
 E(a){var s,r,q,p,o,n,m=null,l="About Us",k=" | ",j="Terms of Use",i="Privacy Policy",h="Contact Us :  info@cardiologyapps.com",g=a.t(t.w).f.a.a,f=g*0.1,e=g*0.016,d=A.al(B.d.aI(25.5),0,0,0)
 if(g<=500){s=A.z(a).RG.z
-s=A.ew(!1,m,!0,A.a6(l,m,m,1,m,m,m,m,s==null?m:s.bS(12),B.az,m,m),m,!0,m,m,m,m,m,m,m,m,m,new A.a65(a),m,m,m,m)
+s=A.ew(!1,m,!0,A.a6(l,m,m,1,m,m,m,m,s==null?m:s.bS(9),B.az,m,m),m,!0,m,m,m,m,m,m,m,m,m,new A.a65(a),m,m,m,m)
 r=A.z(a).RG.z
-r=A.a6(k,m,m,1,m,m,m,m,r==null?m:r.bS(12),B.az,m,m)
+r=A.a6(k,m,m,1,m,m,m,m,r==null?m:r.bS(9),B.az,m,m)
 q=A.z(a).RG.z
-q=A.ew(!1,m,!0,A.a6(j,m,m,1,m,m,m,m,q==null?m:q.bS(12),B.az,m,m),m,!0,m,m,m,m,m,m,m,m,m,new A.a66(a),m,m,m,m)
+q=A.ew(!1,m,!0,A.a6(j,m,m,1,m,m,m,m,q==null?m:q.bS(9),B.az,m,m),m,!0,m,m,m,m,m,m,m,m,m,new A.a66(a),m,m,m,m)
 p=A.z(a).RG.z
-p=A.a6(k,m,m,1,m,m,m,m,p==null?m:p.bS(12),B.az,m,m)
+p=A.a6(k,m,m,1,m,m,m,m,p==null?m:p.bS(9),B.az,m,m)
 o=A.z(a).RG.z
 n=t.p
-o=A.ca(A.a([new A.bP(1,B.F,s,m),new A.bP(1,B.F,r,m),new A.bP(1,B.F,q,m),new A.bP(1,B.F,p,m),new A.bP(1,B.F,A.ew(!1,m,!0,A.a6(i,m,m,1,m,m,m,m,o==null?m:o.bS(12),B.az,m,m),m,!0,m,m,m,m,m,m,m,m,m,new A.a67(a),m,m,m,m),m)],n),B.r,B.fl,B.z)
+o=A.ca(A.a([new A.bP(1,B.F,s,m),new A.bP(1,B.F,r,m),new A.bP(1,B.F,q,m),new A.bP(1,B.F,p,m),new A.bP(1,B.F,A.ew(!1,m,!0,A.a6(i,m,m,1,m,m,m,m,o==null?m:o.bS(9),B.az,m,m),m,!0,m,m,m,m,m,m,m,m,m,new A.a67(a),m,m,m,m),m)],n),B.r,B.fl,B.z)
 p=A.z(a).RG.as
 s=A.ax(A.a([new A.bP(1,B.F,o,m),B.xx,new A.bP(1,B.F,A.ew(!1,m,!0,A.a6(h,m,m,1,m,m,m,m,p==null?m:p.bS(9),B.az,m,m),m,!0,m,m,m,m,m,m,m,m,m,new A.a68(),m,m,m,m),m)],n),B.t,B.i,B.z)}else{s=t.p
 s=A.ca(A.a([new A.bP(1,B.F,A.ca(A.a([new A.bP(1,B.F,A.ew(!1,m,!0,A.iQ(l,1/0,1,8,m,A.z(a).RG.z,B.q),m,!0,m,m,m,m,m,m,m,m,m,new A.a69(a),m,m,m,m),m),new A.bP(1,B.F,A.iQ(k,1/0,1,8,m,A.z(a).RG.z,B.q),m),new A.bP(1,B.F,A.ew(!1,m,!0,A.iQ(j,1/0,1,8,m,A.z(a).RG.z,B.q),m,!0,m,m,m,m,m,m,m,m,m,new A.a6a(a),m,m,m,m),m),new A.bP(1,B.F,A.iQ(k,1/0,1,8,m,A.z(a).RG.z,B.q),m),new A.bP(1,B.F,A.ew(!1,m,!0,A.iQ(i,1/0,1,8,m,A.z(a).RG.z,B.q),m,!0,m,m,m,m,m,m,m,m,m,new A.a6b(a),m,m,m,m),m)],s),B.t,B.i,B.z),m),B.xx,new A.bP(1,B.F,A.ew(!1,m,!0,A.iQ(h,1/0,1,8,m,A.z(a).RG.as,B.m5),m,!0,m,m,m,m,m,m,m,m,m,new A.a6c(),m,m,m,m),m)],s),B.t,B.br,B.z)}return A.b4(m,s,B.l,d,m,m,m,m,B.Y,new A.a3(f,e,f,e),m,m,g)}}
