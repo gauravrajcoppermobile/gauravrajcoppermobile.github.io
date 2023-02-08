@@ -21,6 +21,10 @@
             {
                 "item_title": "Team",
                 "res_icon": "assets/icons/ic_team.svg"
+            },
+            {
+                "item_title": "References",
+                "res_icon": "assets/icons/ic_references.svg"
             }
         ]
     }

@@ -1,22 +1,54 @@
 {
-    "data": {
-        "title": "References",
-        "items": [
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
-        ]
+  "data": {
+    "title": "References",
+    "des": "The algorithms in MCSAID have been based off of our experience at The Mount Sinai Hospital as a tertiary care center in New York City as well as a large body of publications. Particularly we would like to highlight the following papers on MCS use, outcomes, and escalation/de-escalation:",
+    "items": [
+      "Randhawa, Varinder Kaur et al. “A Pragmatic Approach to Weaning Temporary Mechanical Circulatory Support: A State-of-the-Art Review.” JACC. Heart failure vol. 9,9 (2021): 664-673. doi:10.1016/j.jchf.2021.05.011 https://pubmed.ncbi.nlm.nih.gov/34391743/",
+      "Basir, Mir B et al. “Improved Outcomes Associated with the use of Shock Protocols: Updates from the National Cardiogenic Shock Initiative.” Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography &amp; Interventions vol. 93,7(2019): 1173-1183. doi:10.1002/ccd.28307https://pubmed.ncbi.nlm.nih.gov/31025538/",
+      "Geller, Bram J et al. “Escalating and De-escalating Temporary Mechanical Circulatory Support in Cardiogenic Shock: A Scientific Statement From the American Heart Association.” Circulation vol. 146,6 (2022): e50-e68. doi:10.1161/CIR.0000000000001076 https://pubmed.ncbi.nlm.nih.gov/35862152/",
+      "Rihal, Charanjit S et al. “2015 SCAI/ACC/HFSA/STS Clinical Expert Consensus Statement on the Use of Percutaneous Mechanical Circulatory Support Devices in Cardiovascular Care: Endorsed by the American Heart Assocation, the Cardiological Society of India, and Sociedad Latino Americana de Cardiologia Intervencion; Affirmation of Value by the Canadian Association of Interventional Cardiology-Association Canadienne de Cardiologie d&#39;intervention.” Journal of the American College of Cardiology vol. 65,19 (2015): e7-e26. doi:10.1016/j.jacc.2015.03.036 https://pubmed.ncbi.nlm.nih.gov/25861963/",
+      "Tehrani, Behnam N et al. “Standardized Team-Based Care for Cardiogenic Shock.” Journal of the American College of Cardiology vol. 73,13 (2019): 1659-1669. doi:10.1016/j.jacc.2018.12.084 https://pubmed.ncbi.nlm.nih.gov/30947919/"
+    ],
+    "glossary_title": "Abbreviation Glossary:",
+    "glossary_map": {
+      "MCS": "Mechanical Cardiocirculatory Support",
+      "CS": "Cardiogenic Shock",
+      "STEMI": "ST-Segment Elevation Myocardial Infarction",
+      "NSTEMI": "Non-ST-Segment Elevation Myocardial Infarction",
+      "PCI": "Percutaneous Coronary Intervention",
+      "LV": "Left Ventricle / Left Ventricular",
+      "RV": "Right Ventricle / Right Ventricular",
+      "ECMO": "Extracorporeal Membrane Oxygenation",
+      "RHC": "Right Heart Catheterization",
+      "CO": "Cardiac Output",
+      "CPO": "Cardiac Power Output",
+      "CI": "Cardiac Index",
+      "PAPI": "Pulmonary Artery Pulsatility Index",
+      "SV": "Stroke Volume",
+      "MAP": "Mean Arterial Pressure",
+      "SBP": "Systolic Blood Pressure",
+      "DBP": "Diastolic Blood Pressure",
+      "LVEDP": "Left Ventricular End-Diastolic Pressure",
+      "SVR": "Systemic Vascular Resistance",
+      "PVR": "Pulmonary Vascular Resistance",
+      "Hb": "Hemoglobin",
+      "IABP": "Intra-aortic balloon pump",
+      "SaO2": "Saturation Arterial Oxygen",
+      "SvO2": "Saturation Venous Oxygen",
+      "PCWP": "Pulmonary capillary wedge pressure",
+      "PAP": "Pulmonary Artery Pressure",
+      "MRAP": "Mean Right Arterial Pressure",
+      "BNP": "B-type natriuretic peptide",
+      "LFT": "Liver function test",
+      "CPR": "Cardiopulmonary resuscitation",
+      "ROSC": "Return of spontaneous circulation",
+      "VT": "Ventricular tachycardia",
+      "VF arrest": "Ventricular fibrillation arrest",
+      "STE": "ST-segment Elevation (on EKG)",
+      "STD": "ST-segment Depression (on EKG)",
+      "POC TTE": "point-of-care transthoracic echocardiogram",
+      "CTA": "Computed tomography angiography",
+      "PE": "Pulmonary Embolism"
     }
+  }
 }

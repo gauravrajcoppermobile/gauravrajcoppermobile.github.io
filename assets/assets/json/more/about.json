@@ -2,8 +2,8 @@
     "data": {
         "title": "About Us",
         "items": [
-            "MCSAID is a free educational tool developed by the cardiologists at The Mount Sinai Hospital in New York, New York intended to teach the user about the complicated decisions required when selecting appropriate mechanical cardiocirculatory support devices. Explore the step-by-step algorithm and the introductory basics section to gain a deeper understanding on this complex topic.",
-            "[NOTE: Once we have a better understanding of how the calculator will interact with the alogortim, I want to add a few lines about that here. Something like: Values you have recently added, in the past 15 minutes, will appear on the algorithm as notes for easier use.]",
+            "MCSAID is a free educational tool developed by the cardiologists at The Mount Sinai Hospital in New York, New York intended to teach the user about the complicated decisions required when selecting appropriate mechanical cardio circulatory support devices. Explore the step-by-step algorithm and the introductory basics section to gain a deeper understanding on this complex topic.",
+            "Press the floppy disk icon while navigating the algorithms or within a calculator to see your most recently-calculated values. These records can be reset anytime by pressing, \"Clear Data\".",
             "For more educational content from The Mount Sinai Hospital’s cardiac catheterization laboratory, explore and please share our:",
             "1. Other educational applications on www.CardiologyApps.com",
             "2. More than decade-long running complex live case series on www.CCCLiveCases.org with a searchable log of cases",
